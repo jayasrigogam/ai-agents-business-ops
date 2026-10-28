@@ -1,36 +1,52 @@
-"""Step 1: synthetic supply-chain data -> supply_data.csv (40 suppliers x 24 months)
-Each row = one supplier-month. 'DisruptionNextMonth' = 1 if that supplier's delivery is badly disrupted next month."""
-import numpy as np, pandas as pd
-rng = np.random.default_rng(21)
-REGIONS = ["Asia", "Europe", "North America", "Middle East"]
-CATS = ["Raw Materials", "Electronics", "Packaging", "Components"]
-S = 40
-sup = pd.DataFrame({"SupplierID": [f"S{i:02d}" for i in range(1, S + 1)],
-                    "Region": rng.choice(REGIONS, S, p=[.4, .25, .2, .15]),
-                    "Category": rng.choice(CATS, S),
-                    "SingleSource": rng.random(S) < 0.3,
-                    "FinancialRisk": np.clip(rng.beta(2, 5, S), 0.02, 0.95).round(2),
-                    "BaseLeadTime": rng.integers(7, 35, S)})
-rows = []
-for _, s in sup.iterrows():
-    stress = 0.0
-    for m in range(1, 25):
-        stress = 0.7 * stress + rng.normal(0, 0.6) + (0.5 if (s.Region == "Middle East" and 12 <= m <= 18) else 0)  # regional event
-        lead = s.BaseLeadTime * (1 + 0.08 * stress + rng.normal(0, 0.04))
-        transport = max(rng.normal(1 + 1.5 * stress + (s.Region == "Asia") * .8, 1), 0)
-        ontime = np.clip(0.95 - 0.07 * stress - 0.1 * s.FinancialRisk + rng.normal(0, .03), .4, 1)
-        defect = np.clip(0.012 + 0.008 * stress + 0.03 * s.FinancialRisk + rng.normal(0, .006), 0.001, .2)
-        cover = np.clip(rng.normal(28 - 6 * stress - 6 * s.SingleSource, 4), 2, 60)       # days of inventory cover
-        util = np.clip(rng.normal(0.75 + 0.05 * stress, .08), .3, 1.1)                     # production schedule load
-        z = (-3.4 + 1.1 * stress + 2.4 * s.FinancialRisk - 0.07 * (cover - 20) + 0.25 * transport
-             + 1.0 * s.SingleSource + 2.0 * (util - .75) - 3 * (ontime - .9))
-        disrupt = int(rng.random() < 1 / (1 + np.exp(-z)))
-        rows.append((s.SupplierID, m, round(lead, 1), round(transport, 1), round(ontime, 3), round(defect, 4),
-                     round(cover, 1), round(util, 2), disrupt))
-d = pd.DataFrame(rows, columns=["SupplierID", "Month", "LeadTimeDays", "TransportDelayDays", "OnTimeRate", "DefectRate",
-                                "InventoryCoverDays", "ProductionLoad", "_Disrupted"])
-d["DisruptionNextMonth"] = d.groupby("SupplierID")._Disrupted.shift(-1)       # signals today -> disruption next month
-df = d.merge(sup, on="SupplierID").drop(columns="_Disrupted")
-df.to_csv("supply_data.csv", index=False)
-print(f"supply_data.csv created: {len(df)} supplier-months, {S} suppliers, 24 months")
-print(f"Disruption rate: {df.DisruptionNextMonth.dropna().mean():.1%}")
+"""Generate synthetic machine sensor and maintenance data for Project 9."""
+import numpy as np
+import pandas as pd
+
+def main():
+    rng = np.random.default_rng(9)
+    n = 1800
+    machine_types = np.array(["Pump", "Conveyor", "Compressor", "Motor", "Hydraulic Press"])
+    types = rng.choice(machine_types, size=n, p=[0.24, 0.22, 0.18, 0.24, 0.12])
+    age = rng.uniform(0.3, 15, n).round(2)
+    operating_hours = rng.integers(300, 24000, n)
+    hours_since_service = rng.integers(0, 2400, n)
+    temperature = rng.normal(68, 9, n) + age * 0.45
+    vibration = np.maximum(0.1, rng.normal(3.2, 1.1, n) + age * 0.07)
+    pressure = rng.normal(100, 12, n) - age * 0.25
+    load_pct = np.clip(rng.normal(72, 16, n), 20, 120)
+    recent_faults = rng.poisson(0.45, n)
+    downtime_last_month = np.maximum(0, rng.gamma(1.6, 1.8, n) + recent_faults * 1.8)
+    production_criticality = rng.choice(["Low", "Medium", "High"], n, p=[0.25, 0.45, 0.30])
+
+    # Build a synthetic risk score with sensor/maintenance factors.
+    z = (-5.1
+         + 0.035 * (temperature - 65)
+         + 0.42 * (vibration - 3)
+         + 0.012 * (hours_since_service / 10)
+         + 0.085 * recent_faults
+         + 0.025 * (load_pct - 70)
+         + 0.10 * age
+         + 0.12 * downtime_last_month)
+    prob = 1 / (1 + np.exp(-z))
+    failure = rng.binomial(1, prob)
+
+    df = pd.DataFrame({
+        "machine_id": [f"M{i:04d}" for i in range(1, n + 1)],
+        "machine_type": types,
+        "age_years": age,
+        "operating_hours": operating_hours,
+        "hours_since_maintenance": hours_since_service,
+        "temperature_c": temperature.round(2),
+        "vibration_mm_s": vibration.round(2),
+        "pressure_kpa": pressure.round(2),
+        "load_pct": load_pct.round(1),
+        "recent_faults_90d": recent_faults,
+        "downtime_hours_last_month": downtime_last_month.round(2),
+        "production_criticality": production_criticality,
+        "failure_next_30d": failure
+    })
+    df.to_csv("machine_data.csv", index=False)
+    print(f"machine_data.csv created: {len(df)} machines, {int(df['failure_next_30d'].sum())} labeled failures")
+
+if __name__ == "__main__":
+    main()
