@@ -1,0 +1,12 @@
+WORKLOAD & PRODUCTIVITY REPORT
+========================================
+Hours +10.1% but tasks completed -1.5% and output per hour -10.2% over 12 months.
+Productivity peaks near 45 h/week; beyond ~45 h output per hour drops sharply.
+Biggest bottleneck teams: Support, Operations.
+Top productivity drivers: AbsentDays, OvertimeHrs, WeeklyHours.
+
+RECOMMENDED INTERVENTIONS:
+1. Cap planned hours at 45/week; rebalance work in Support and Operations (hire or redistribute).
+2. Treat rising absenteeism as an early-warning signal (top productivity driver): HR check-ins and wellbeing support.
+3. Run engagement check-ins for the 'Overloaded / burning out' segment before absenteeism rises.
+4. Track output per hour (not hours worked) as the headline productivity KPI.
