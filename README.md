@@ -16,7 +16,7 @@ pip install -r requirements.txt
 | # | Topic | Folder | Status |
 |---|---|---|---|
 | 1 | AI agent vs chatbot | `q01_agent_vs_chatbot` | Done |
-| 2 | Components of an AI agent | `q02_*` | Pending |
+| 2 | Components of an AI agent | `q02_agent_components` | Done |
 | 3 | LLM as reasoning engine | `q03_*` | Pending |
 | 4 | Tool / function calling | `q04_*` | Pending |
 | 5 | RAG | `q05_*` | Pending |

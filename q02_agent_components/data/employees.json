@@ -1,0 +1,4 @@
+{
+  "EMP-101": {"name": "Anita Rao",  "department": "Marketing",  "designation": "Executive", "casual_leave_left": 7,  "sick_leave_left": 9},
+  "EMP-102": {"name": "Ravi Kumar", "department": "Finance",    "designation": "Manager",   "casual_leave_left": 3,  "sick_leave_left": 10}
+}
