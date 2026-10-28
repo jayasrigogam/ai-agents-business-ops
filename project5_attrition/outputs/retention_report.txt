@@ -1,0 +1,19 @@
+EMPLOYEE ATTRITION - ROOT-CAUSE & RETENTION REPORT
+=======================================================
+Employees analysed: 1500 | Attrition rate: 11.5%
+Highest-attrition department: Finance (14.4%)
+Model quality (Random Forest ROC-AUC): 0.79
+
+TOP ATTRITION DRIVERS & ACTIONS:
+1. OvertimeHrsPerMonth (leavers avg 12.31 vs stayers 8.05)
+   -> Cap overtime (e.g. max 10 hrs/month), hire/redistribute work in overloaded teams.
+2. YearsSincePromotion (leavers avg 3.56 vs stayers 2.02)
+   -> Define clear promotion/career-path timelines; review staff waiting > 3 years.
+3. MonthlySalary_INR_equiv (leavers avg 53718.5 vs stayers 61192.69)
+   -> Run a pay-benchmarking review; correct pay below department median.
+4. EngagementScore (leavers avg 2.87 vs stayers 3.43)
+   -> Launch pulse surveys, manager 1:1s and recognition programmes for low-engagement staff.
+5. TenureYears (leavers avg 4.2 vs stayers 4.82)
+   -> Strengthen onboarding & mentoring for new joiners (early-tenure exits).
+
+IMMEDIATE ACTION: 4 current employees are in the HIGH-risk band. Prioritise stay-interviews for them.
