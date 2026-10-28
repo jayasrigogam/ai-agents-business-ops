@@ -1,31 +1,47 @@
-# AI Agents for Business Operations - Classroom Projects
+# Q5. What is RAG, and how can it improve business AI agents?
 
-Working demos for 14 theory + case-study questions. Each folder has a `README.md`
-(theory answer + case study) and a runnable `demo.py` with sample data.
+## Theory
+**RAG (Retrieval-Augmented Generation)** gives an LLM the right information *at question time*.
+Instead of relying on what the model memorised during training, the system first **retrieves**
+relevant passages from the company's own documents, then asks the LLM to answer **using only
+those passages**.
 
-## Setup
-```bash
-git clone <your-repo-url> && cd ai-agents-business-ops
-python -m venv .venv && source .venv/bin/activate      # Windows: .venv\Scripts\activate
-pip install -r requirements.txt
 ```
-**Mock mode (default):** every demo runs offline with no API key.
-**Real LLM mode (optional):** copy `.env.example` to `.env` and add `ANTHROPIC_API_KEY`.
+Offline (once):  Documents -> split into chunks -> index (vectors)
+At question time: Question -> retrieve top chunks -> add to prompt -> LLM answers with citation
+```
 
-## Projects
-| # | Topic | Folder | Status |
-|---|---|---|---|
-| 1 | AI agent vs chatbot | `q01_agent_vs_chatbot` | Done |
-| 2 | Components of an AI agent | `q02_agent_components` | Done |
-| 3 | LLM as reasoning engine | `q03_llm_reasoning` | Done |
-| 4 | Tool / function calling | `q04_tool_calling` | Done |
-| 5 | RAG | `q05_*` | Pending |
-| 6 | Memory | `q06_*` | Pending |
-| 7 | Planning & task decomposition | `q07_*` | Pending |
-| 8 | Agentic workflow | `q08_*` | Pending |
-| 9 | Customer service automation | `q09_*` | Pending |
-| 10 | Marketing operations | `q10_*` | Pending |
-| 11 | HR operations | `q11_*` | Pending |
-| 12 | Recruitment | `q12_*` | Pending |
-| 13 | Sales operations | `q13_*` | Pending |
-| 14 | Inventory & supply chain | `q14_*` | Pending |
+How RAG improves business agents:
+1. **Up-to-date answers.** Update the document, re-index, done. No retraining.
+2. **Company-specific knowledge.** Policies, manuals and contracts the LLM never saw.
+3. **Fewer hallucinations.** The LLM is told to answer only from the retrieved text.
+4. **Traceability.** Every answer can cite its source section.
+5. **Safe fallback.** If nothing relevant is retrieved, the agent says so and escalates.
+6. **Cost.** Far cheaper than fine-tuning a model every time a policy changes.
+
+## Case study: leave policy from the latest HR handbook
+An employee asks about leave. The agent must answer from the latest handbook:
+
+| RAG step | In this project |
+|---|---|
+| 1. Load | `hr_handbook_2026.txt` (effective 1 April 2026) |
+| 2. Chunk | Split by section, then into 2-sentence chunks that keep their section name |
+| 3. Index | TF-IDF vectors for every chunk |
+| 4. Retrieve | The question is vectorised; the top matching chunks are returned with scores |
+| 5. Augment | Prompt = instructions + retrieved chunks + question |
+| 6. Generate | LLM answers from the chunks only and cites the section |
+
+## Demo
+```bash
+python q05_rag/demo.py
+```
+| Part | What it shows |
+|---|---|
+| 1 | LLM without RAG gives a generic, outdated answer (10 casual leaves) |
+| 2 | Knowledge base built: load, chunk (11 chunks, 7 sections), index |
+| 3 | 4 questions: casual leave, sick-leave certificate, maternity leave, and **stock options** (not in the handbook, so the agent escalates to HR instead of guessing) |
+| 4 | HR changes the handbook (12 -> 14 casual leaves); only a re-index is needed and the answer changes immediately |
+
+The index is plain TF-IDF so the demo needs no extra libraries. Production systems use
+embeddings and a vector database; the pipeline is identical. With an `ANTHROPIC_API_KEY`
+a real LLM writes the final answer from the retrieved chunks.
