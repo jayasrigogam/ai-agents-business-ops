@@ -1,0 +1,5 @@
+{
+  "ORD-1001": {"customer": "Anita Rao",  "email": "anita@example.com",  "item": "Wireless Headphones", "amount": 3499, "category": "physical", "status": "delivered", "delivered_days_ago": 5},
+  "ORD-1002": {"customer": "Ravi Kumar", "email": "ravi@example.com",   "item": "Office Chair",        "amount": 8999, "category": "physical", "status": "delivered", "delivered_days_ago": 45},
+  "ORD-1003": {"customer": "Meena Iyer", "email": "meena@example.com",  "item": "E-book Bundle",       "amount": 599,  "category": "digital",  "status": "delivered", "delivered_days_ago": 2}
+}
