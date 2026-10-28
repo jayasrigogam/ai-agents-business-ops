@@ -1,0 +1,12 @@
+SUPPLY CHAIN DISRUPTION REPORT
+========================================
+Model ROC-AUC on future months: 0.77
+Highest-risk region: Middle East (28% disruption rate); category: Components
+Top risk drivers: OnTimeRate, LeadTimeRatio, DefectRate
+Suppliers at HIGH risk next month: 6 | MEDIUM: 5
+
+PRIORITY ACTIONS:
+- Qualify a backup supplier (dual sourcing): 6 suppliers
+- Switch carrier or re-route shipments: 6 suppliers
+- Monitor: 2 suppliers
+- Raise safety stock / expedite open orders: 2 suppliers

@@ -1,0 +1,961 @@
+SupplierID,Month,LeadTimeDays,TransportDelayDays,OnTimeRate,DefectRate,InventoryCoverDays,ProductionLoad,DisruptionNextMonth,Region,Category,SingleSource,FinancialRisk,BaseLeadTime
+S01,1,25.1,0.0,0.989,0.0151,23.4,0.67,0.0,North America,Raw Materials,False,0.05,27
+S01,2,23.9,1.4,0.938,0.0177,28.7,0.67,0.0,North America,Raw Materials,False,0.05,27
+S01,3,26.9,1.0,0.966,0.0185,33.1,0.75,0.0,North America,Raw Materials,False,0.05,27
+S01,4,26.2,1.2,0.981,0.0112,33.9,0.71,0.0,North America,Raw Materials,False,0.05,27
+S01,5,26.4,1.2,0.974,0.0101,30.8,0.68,0.0,North America,Raw Materials,False,0.05,27
+S01,6,25.4,0.0,0.959,0.0161,33.9,0.8,1.0,North America,Raw Materials,False,0.05,27
+S01,7,29.6,2.3,0.866,0.0231,26.5,0.79,0.0,North America,Raw Materials,False,0.05,27
+S01,8,28.7,3.0,0.89,0.0229,21.0,0.76,1.0,North America,Raw Materials,False,0.05,27
+S01,9,32.8,2.9,0.807,0.0236,15.6,0.79,0.0,North America,Raw Materials,False,0.05,27
+S01,10,28.8,2.6,0.955,0.0285,28.9,0.96,0.0,North America,Raw Materials,False,0.05,27
+S01,11,28.3,2.2,0.939,0.0158,31.7,0.88,0.0,North America,Raw Materials,False,0.05,27
+S01,12,27.4,0.0,0.897,0.0206,25.0,0.7,0.0,North America,Raw Materials,False,0.05,27
+S01,13,31.1,3.9,0.83,0.0301,24.1,0.89,0.0,North America,Raw Materials,False,0.05,27
+S01,14,28.7,2.6,0.877,0.0203,19.7,0.93,0.0,North America,Raw Materials,False,0.05,27
+S01,15,29.6,1.9,0.852,0.0221,12.1,0.72,1.0,North America,Raw Materials,False,0.05,27
+S01,16,30.3,3.7,0.837,0.0299,15.8,0.98,0.0,North America,Raw Materials,False,0.05,27
+S01,17,27.7,1.3,0.987,0.0128,32.4,0.9,0.0,North America,Raw Materials,False,0.05,27
+S01,18,30.2,3.4,0.907,0.0146,31.4,0.82,0.0,North America,Raw Materials,False,0.05,27
+S01,19,29.1,0.0,0.9,0.012,19.7,0.64,0.0,North America,Raw Materials,False,0.05,27
+S01,20,28.4,2.2,0.879,0.0137,19.9,0.69,0.0,North America,Raw Materials,False,0.05,27
+S01,21,25.1,0.9,1.0,0.0148,34.2,0.64,0.0,North America,Raw Materials,False,0.05,27
+S01,22,26.9,0.0,0.969,0.0205,32.0,0.72,0.0,North America,Raw Materials,False,0.05,27
+S01,23,26.9,1.7,0.964,0.013,30.3,0.68,0.0,North America,Raw Materials,False,0.05,27
+S01,24,26.8,1.9,0.876,0.0223,26.4,0.89,,North America,Raw Materials,False,0.05,27
+S02,1,21.5,0.0,1.0,0.0113,34.7,0.74,0.0,Europe,Raw Materials,False,0.22,22
+S02,2,21.7,0.0,0.966,0.0128,37.0,0.69,0.0,Europe,Raw Materials,False,0.22,22
+S02,3,22.3,2.1,0.943,0.0186,33.8,0.59,0.0,Europe,Raw Materials,False,0.22,22
+S02,4,22.1,0.3,0.939,0.0269,27.1,0.72,1.0,Europe,Raw Materials,False,0.22,22
+S02,5,24.9,2.6,0.825,0.0192,20.8,0.78,0.0,Europe,Raw Materials,False,0.22,22
+S02,6,22.0,1.6,0.875,0.0328,30.1,0.8,0.0,Europe,Raw Materials,False,0.22,22
+S02,7,21.9,1.1,0.896,0.0212,34.4,0.77,0.0,Europe,Raw Materials,False,0.22,22
+S02,8,21.1,1.3,1.0,0.0209,33.5,0.72,0.0,Europe,Raw Materials,False,0.22,22
+S02,9,22.7,2.3,0.936,0.0194,27.3,0.61,0.0,Europe,Raw Materials,False,0.22,22
+S02,10,21.9,1.1,0.865,0.0204,32.8,0.76,0.0,Europe,Raw Materials,False,0.22,22
+S02,11,22.1,1.9,0.877,0.0395,26.6,0.69,0.0,Europe,Raw Materials,False,0.22,22
+S02,12,24.7,3.2,0.805,0.0251,16.1,0.9,1.0,Europe,Raw Materials,False,0.22,22
+S02,13,26.1,3.8,0.828,0.0225,12.7,0.82,1.0,Europe,Raw Materials,False,0.22,22
+S02,14,26.0,2.4,0.767,0.029,20.6,0.82,1.0,Europe,Raw Materials,False,0.22,22
+S02,15,26.6,5.6,0.736,0.04,12.8,0.88,0.0,Europe,Raw Materials,False,0.22,22
+S02,16,26.5,2.8,0.824,0.03,9.5,0.91,0.0,Europe,Raw Materials,False,0.22,22
+S02,17,22.0,0.0,0.915,0.0308,31.0,0.67,0.0,Europe,Raw Materials,False,0.22,22
+S02,18,24.5,1.9,0.921,0.015,24.3,0.82,0.0,Europe,Raw Materials,False,0.22,22
+S02,19,23.1,0.8,0.879,0.0255,27.4,0.69,0.0,Europe,Raw Materials,False,0.22,22
+S02,20,22.4,0.8,0.929,0.0131,29.7,0.74,0.0,Europe,Raw Materials,False,0.22,22
+S02,21,20.7,2.9,0.875,0.0278,25.2,0.86,0.0,Europe,Raw Materials,False,0.22,22
+S02,22,22.5,1.3,0.926,0.017,28.4,0.68,0.0,Europe,Raw Materials,False,0.22,22
+S02,23,21.7,2.1,0.911,0.0126,24.2,0.71,0.0,Europe,Raw Materials,False,0.22,22
+S02,24,20.8,0.0,0.967,0.0024,33.5,0.8,,Europe,Raw Materials,False,0.22,22
+S03,1,25.9,2.0,0.937,0.0396,27.4,0.68,0.0,North America,Electronics,False,0.35,27
+S03,2,25.6,0.2,0.997,0.0188,31.1,0.82,0.0,North America,Electronics,False,0.35,27
+S03,3,25.7,0.1,0.899,0.02,19.5,0.85,0.0,North America,Electronics,False,0.35,27
+S03,4,28.9,3.3,0.898,0.029,22.2,0.79,0.0,North America,Electronics,False,0.35,27
+S03,5,24.8,0.3,1.0,0.0108,30.5,0.73,0.0,North America,Electronics,False,0.35,27
+S03,6,24.8,0.4,0.963,0.0176,35.7,0.68,0.0,North America,Electronics,False,0.35,27
+S03,7,28.1,1.3,0.866,0.0277,30.0,0.79,1.0,North America,Electronics,False,0.35,27
+S03,8,30.4,2.9,0.791,0.0372,19.1,0.95,0.0,North America,Electronics,False,0.35,27
+S03,9,30.4,3.5,0.825,0.0299,23.3,0.81,0.0,North America,Electronics,False,0.35,27
+S03,10,29.5,2.6,0.841,0.0293,19.4,0.75,0.0,North America,Electronics,False,0.35,27
+S03,11,31.3,2.0,0.87,0.0388,27.2,0.73,1.0,North America,Electronics,False,0.35,27
+S03,12,31.1,3.9,0.808,0.0416,15.0,0.83,1.0,North America,Electronics,False,0.35,27
+S03,13,29.6,4.6,0.837,0.0333,17.1,0.91,0.0,North America,Electronics,False,0.35,27
+S03,14,29.0,2.2,0.861,0.0344,33.5,0.8,0.0,North America,Electronics,False,0.35,27
+S03,15,28.3,0.6,0.921,0.0315,32.8,0.8,1.0,North America,Electronics,False,0.35,27
+S03,16,25.8,0.0,0.946,0.0338,28.1,0.75,0.0,North America,Electronics,False,0.35,27
+S03,17,25.7,2.4,0.933,0.0212,22.9,0.7,0.0,North America,Electronics,False,0.35,27
+S03,18,28.5,1.3,0.843,0.0337,24.6,0.76,1.0,North America,Electronics,False,0.35,27
+S03,19,28.6,3.1,0.831,0.0398,17.2,0.68,0.0,North America,Electronics,False,0.35,27
+S03,20,27.1,2.5,0.881,0.0256,21.9,0.84,0.0,North America,Electronics,False,0.35,27
+S03,21,28.2,0.8,0.966,0.0078,36.4,0.87,0.0,North America,Electronics,False,0.35,27
+S03,22,25.6,1.5,0.899,0.0216,38.7,0.75,0.0,North America,Electronics,False,0.35,27
+S03,23,26.2,1.6,0.931,0.0216,28.1,0.65,0.0,North America,Electronics,False,0.35,27
+S03,24,28.9,1.4,0.905,0.0197,25.8,0.76,,North America,Electronics,False,0.35,27
+S04,1,29.7,3.2,0.928,0.0287,23.0,0.7,1.0,Asia,Raw Materials,False,0.42,29
+S04,2,30.3,0.4,0.904,0.0271,26.0,0.7,0.0,Asia,Raw Materials,False,0.42,29
+S04,3,29.8,0.0,0.879,0.0347,28.8,0.7,0.0,Asia,Raw Materials,False,0.42,29
+S04,4,29.2,2.3,0.985,0.0268,34.3,0.83,0.0,Asia,Raw Materials,False,0.42,29
+S04,5,30.1,2.4,0.865,0.0257,19.6,0.88,0.0,Asia,Raw Materials,False,0.42,29
+S04,6,32.1,3.3,0.87,0.0235,23.4,0.65,0.0,Asia,Raw Materials,False,0.42,29
+S04,7,29.8,1.5,0.918,0.0346,23.7,0.68,1.0,Asia,Raw Materials,False,0.42,29
+S04,8,29.1,4.1,0.842,0.0302,26.9,0.81,1.0,Asia,Raw Materials,False,0.42,29
+S04,9,30.6,5.7,0.785,0.0317,26.0,1.09,0.0,Asia,Raw Materials,False,0.42,29
+S04,10,27.9,3.0,0.871,0.0263,24.5,0.73,0.0,Asia,Raw Materials,False,0.42,29
+S04,11,29.8,0.3,0.89,0.0198,28.9,0.77,0.0,Asia,Raw Materials,False,0.42,29
+S04,12,28.1,2.6,0.914,0.0325,24.5,0.8,0.0,Asia,Raw Materials,False,0.42,29
+S04,13,29.6,2.6,0.886,0.0339,24.9,0.76,0.0,Asia,Raw Materials,False,0.42,29
+S04,14,29.0,1.3,0.894,0.0268,29.4,0.75,0.0,Asia,Raw Materials,False,0.42,29
+S04,15,31.1,1.9,0.926,0.0278,22.7,0.84,0.0,Asia,Raw Materials,False,0.42,29
+S04,16,28.3,1.0,0.806,0.0194,22.9,0.78,0.0,Asia,Raw Materials,False,0.42,29
+S04,17,28.9,3.0,0.912,0.0289,29.1,0.9,0.0,Asia,Raw Materials,False,0.42,29
+S04,18,27.2,0.5,0.981,0.0223,35.7,0.6,0.0,Asia,Raw Materials,False,0.42,29
+S04,19,28.9,1.5,0.921,0.0157,33.8,0.82,0.0,Asia,Raw Materials,False,0.42,29
+S04,20,24.3,0.0,0.959,0.0147,36.7,0.66,0.0,Asia,Raw Materials,False,0.42,29
+S04,21,26.7,0.5,0.978,0.016,35.8,0.68,0.0,Asia,Raw Materials,False,0.42,29
+S04,22,29.4,0.0,1.0,0.0155,35.4,0.58,0.0,Asia,Raw Materials,False,0.42,29
+S04,23,28.4,1.6,0.895,0.0292,20.2,0.67,0.0,Asia,Raw Materials,False,0.42,29
+S04,24,30.8,2.2,0.899,0.0349,20.8,0.85,,Asia,Raw Materials,False,0.42,29
+S05,1,12.5,2.1,0.841,0.0327,21.4,0.81,1.0,Europe,Packaging,True,0.58,12
+S05,2,12.2,0.5,0.813,0.035,18.4,0.78,1.0,Europe,Packaging,True,0.58,12
+S05,3,13.0,3.8,0.787,0.0354,10.4,0.85,0.0,Europe,Packaging,True,0.58,12
+S05,4,13.0,2.2,0.866,0.0439,13.2,0.86,0.0,Europe,Packaging,True,0.58,12
+S05,5,11.9,0.5,0.862,0.0337,19.3,0.59,0.0,Europe,Packaging,True,0.58,12
+S05,6,11.9,0.7,0.906,0.0246,14.1,0.7,1.0,Europe,Packaging,True,0.58,12
+S05,7,11.7,0.5,0.89,0.0232,18.8,0.72,0.0,Europe,Packaging,True,0.58,12
+S05,8,11.6,0.0,0.933,0.025,30.7,0.8,0.0,Europe,Packaging,True,0.58,12
+S05,9,12.2,2.6,0.845,0.0302,20.2,0.66,1.0,Europe,Packaging,True,0.58,12
+S05,10,13.2,2.7,0.852,0.0322,25.9,0.68,1.0,Europe,Packaging,True,0.58,12
+S05,11,12.1,0.6,0.913,0.0203,25.1,0.89,0.0,Europe,Packaging,True,0.58,12
+S05,12,11.6,1.8,0.854,0.0233,16.4,0.73,0.0,Europe,Packaging,True,0.58,12
+S05,13,12.1,0.0,0.902,0.0229,28.3,0.66,0.0,Europe,Packaging,True,0.58,12
+S05,14,11.3,0.4,0.963,0.0267,31.1,0.76,0.0,Europe,Packaging,True,0.58,12
+S05,15,12.1,0.7,0.867,0.0235,14.9,0.71,1.0,Europe,Packaging,True,0.58,12
+S05,16,13.4,2.1,0.837,0.0345,11.2,0.82,0.0,Europe,Packaging,True,0.58,12
+S05,17,12.7,1.6,0.828,0.0344,10.6,0.88,1.0,Europe,Packaging,True,0.58,12
+S05,18,12.9,1.8,0.747,0.0332,14.8,0.83,1.0,Europe,Packaging,True,0.58,12
+S05,19,12.9,3.8,0.808,0.0366,17.5,0.84,1.0,Europe,Packaging,True,0.58,12
+S05,20,12.2,3.9,0.771,0.0403,21.7,0.74,1.0,Europe,Packaging,True,0.58,12
+S05,21,12.0,2.2,0.823,0.0359,20.8,0.86,1.0,Europe,Packaging,True,0.58,12
+S05,22,12.9,1.8,0.844,0.0398,21.1,0.82,1.0,Europe,Packaging,True,0.58,12
+S05,23,12.5,2.1,0.824,0.0445,10.8,0.72,1.0,Europe,Packaging,True,0.58,12
+S05,24,13.5,4.3,0.876,0.0318,14.3,0.77,,Europe,Packaging,True,0.58,12
+S06,1,21.6,1.2,0.904,0.014,24.2,0.8,0.0,Middle East,Components,True,0.34,22
+S06,2,17.8,0.0,1.0,0.0161,29.7,0.69,0.0,Middle East,Components,True,0.34,22
+S06,3,20.2,0.0,0.934,0.0052,28.9,0.75,0.0,Middle East,Components,True,0.34,22
+S06,4,19.0,0.0,1.0,0.0114,33.7,0.71,0.0,Middle East,Components,True,0.34,22
+S06,5,20.9,0.0,0.99,0.0198,19.9,0.78,0.0,Middle East,Components,True,0.34,22
+S06,6,21.8,0.3,0.915,0.0146,17.4,0.76,1.0,Middle East,Components,True,0.34,22
+S06,7,21.6,0.1,0.929,0.0223,25.9,0.84,0.0,Middle East,Components,True,0.34,22
+S06,8,21.8,1.1,0.955,0.0241,19.2,0.71,0.0,Middle East,Components,True,0.34,22
+S06,9,21.1,0.2,0.924,0.0224,19.8,0.74,0.0,Middle East,Components,True,0.34,22
+S06,10,22.8,2.0,0.899,0.0314,19.4,0.65,0.0,Middle East,Components,True,0.34,22
+S06,11,19.5,0.9,0.938,0.0204,25.6,0.72,1.0,Middle East,Components,True,0.34,22
+S06,12,22.2,1.4,0.837,0.0271,14.5,0.79,1.0,Middle East,Components,True,0.34,22
+S06,13,22.5,3.6,0.807,0.0268,14.1,0.66,1.0,Middle East,Components,True,0.34,22
+S06,14,25.9,3.3,0.854,0.0338,10.5,0.7,1.0,Middle East,Components,True,0.34,22
+S06,15,24.3,3.6,0.801,0.0425,13.0,0.78,1.0,Middle East,Components,True,0.34,22
+S06,16,24.9,2.5,0.73,0.0423,10.2,0.89,1.0,Middle East,Components,True,0.34,22
+S06,17,23.1,4.6,0.842,0.0388,16.4,0.88,1.0,Middle East,Components,True,0.34,22
+S06,18,22.4,2.3,0.842,0.025,18.2,0.86,0.0,Middle East,Components,True,0.34,22
+S06,19,20.4,1.5,0.963,0.0151,17.5,0.84,0.0,Middle East,Components,True,0.34,22
+S06,20,21.7,1.3,0.937,0.0225,24.5,0.77,0.0,Middle East,Components,True,0.34,22
+S06,21,22.1,2.3,0.903,0.0205,16.3,0.7,0.0,Middle East,Components,True,0.34,22
+S06,22,22.6,0.0,0.9,0.0115,21.2,0.83,0.0,Middle East,Components,True,0.34,22
+S06,23,22.1,1.1,0.905,0.0154,19.8,0.78,1.0,Middle East,Components,True,0.34,22
+S06,24,22.1,3.1,0.902,0.0264,22.1,0.84,,Middle East,Components,True,0.34,22
+S07,1,18.4,1.5,0.86,0.0225,30.8,0.84,0.0,Europe,Raw Materials,False,0.39,18
+S07,2,18.3,2.7,0.897,0.0316,25.6,0.78,0.0,Europe,Raw Materials,False,0.39,18
+S07,3,16.9,1.4,0.988,0.0147,28.2,0.67,0.0,Europe,Raw Materials,False,0.39,18
+S07,4,16.1,0.1,1.0,0.0253,33.6,0.54,0.0,Europe,Raw Materials,False,0.39,18
+S07,5,15.9,0.0,1.0,0.0084,35.9,0.82,0.0,Europe,Raw Materials,False,0.39,18
+S07,6,15.9,0.0,1.0,0.0127,35.6,0.58,0.0,Europe,Raw Materials,False,0.39,18
+S07,7,14.2,0.0,1.0,0.0075,45.6,0.63,0.0,Europe,Raw Materials,False,0.39,18
+S07,8,15.8,1.3,0.945,0.017,28.9,0.63,0.0,Europe,Raw Materials,False,0.39,18
+S07,9,17.5,0.0,0.94,0.0122,31.2,0.76,1.0,Europe,Raw Materials,False,0.39,18
+S07,10,17.4,1.4,0.906,0.0305,27.9,0.83,0.0,Europe,Raw Materials,False,0.39,18
+S07,11,18.6,0.1,0.909,0.0208,19.4,0.77,1.0,Europe,Raw Materials,False,0.39,18
+S07,12,18.3,0.3,0.791,0.025,22.2,0.77,0.0,Europe,Raw Materials,False,0.39,18
+S07,13,17.7,0.4,0.861,0.0223,27.3,0.74,0.0,Europe,Raw Materials,False,0.39,18
+S07,14,18.5,2.0,0.925,0.0201,25.2,0.75,0.0,Europe,Raw Materials,False,0.39,18
+S07,15,19.4,1.4,0.913,0.0319,26.7,0.74,1.0,Europe,Raw Materials,False,0.39,18
+S07,16,17.7,1.5,0.863,0.0197,28.1,0.82,0.0,Europe,Raw Materials,False,0.39,18
+S07,17,19.9,3.2,0.869,0.0279,29.4,0.76,1.0,Europe,Raw Materials,False,0.39,18
+S07,18,20.9,3.0,0.838,0.0362,22.0,0.9,0.0,Europe,Raw Materials,False,0.39,18
+S07,19,20.6,4.5,0.765,0.0362,22.7,0.82,0.0,Europe,Raw Materials,False,0.39,18
+S07,20,19.1,0.8,0.848,0.0367,20.2,0.88,1.0,Europe,Raw Materials,False,0.39,18
+S07,21,19.7,4.9,0.832,0.0331,21.2,0.79,0.0,Europe,Raw Materials,False,0.39,18
+S07,22,20.0,3.2,0.834,0.03,28.0,0.74,0.0,Europe,Raw Materials,False,0.39,18
+S07,23,19.9,2.0,0.888,0.0332,27.9,0.94,0.0,Europe,Raw Materials,False,0.39,18
+S07,24,17.4,2.1,0.89,0.0282,24.4,0.78,,Europe,Raw Materials,False,0.39,18
+S08,1,14.3,1.4,0.938,0.0204,27.3,0.79,0.0,Asia,Packaging,False,0.05,14
+S08,2,14.6,3.5,0.855,0.0151,25.9,0.74,0.0,Asia,Packaging,False,0.05,14
+S08,3,14.6,1.6,0.972,0.0177,21.8,0.8,0.0,Asia,Packaging,False,0.05,14
+S08,4,14.0,1.5,0.994,0.0179,35.1,0.74,0.0,Asia,Packaging,False,0.05,14
+S08,5,14.3,1.2,0.965,0.03,19.1,0.81,0.0,Asia,Packaging,False,0.05,14
+S08,6,14.7,1.8,0.92,0.0155,25.2,0.75,0.0,Asia,Packaging,False,0.05,14
+S08,7,15.2,1.7,0.873,0.0185,25.5,0.94,0.0,Asia,Packaging,False,0.05,14
+S08,8,14.9,4.6,0.895,0.0176,22.6,0.85,0.0,Asia,Packaging,False,0.05,14
+S08,9,15.2,4.6,0.873,0.0251,16.7,0.84,0.0,Asia,Packaging,False,0.05,14
+S08,10,14.8,1.1,0.868,0.018,22.8,0.95,0.0,Asia,Packaging,False,0.05,14
+S08,11,15.1,0.3,0.924,0.0077,28.8,0.94,0.0,Asia,Packaging,False,0.05,14
+S08,12,13.5,1.8,1.0,0.0232,30.2,0.88,0.0,Asia,Packaging,False,0.05,14
+S08,13,14.0,1.2,0.892,0.0161,22.1,0.83,0.0,Asia,Packaging,False,0.05,14
+S08,14,13.6,1.3,0.949,0.0215,26.8,0.82,0.0,Asia,Packaging,False,0.05,14
+S08,15,14.6,2.1,0.867,0.0172,26.1,0.8,0.0,Asia,Packaging,False,0.05,14
+S08,16,14.8,2.2,0.882,0.0139,26.4,0.85,0.0,Asia,Packaging,False,0.05,14
+S08,17,14.7,3.5,0.895,0.02,24.5,0.74,0.0,Asia,Packaging,False,0.05,14
+S08,18,14.3,1.0,0.936,0.0097,26.3,0.98,0.0,Asia,Packaging,False,0.05,14
+S08,19,13.8,1.1,0.999,0.0097,37.5,0.74,0.0,Asia,Packaging,False,0.05,14
+S08,20,13.8,1.8,0.979,0.0136,20.1,0.91,0.0,Asia,Packaging,False,0.05,14
+S08,21,14.7,0.1,0.938,0.0168,31.2,0.79,0.0,Asia,Packaging,False,0.05,14
+S08,22,14.4,2.8,0.883,0.0281,23.7,0.77,0.0,Asia,Packaging,False,0.05,14
+S08,23,14.0,2.7,0.896,0.0285,23.2,0.77,1.0,Asia,Packaging,False,0.05,14
+S08,24,16.4,3.9,0.886,0.0324,22.1,0.85,,Asia,Packaging,False,0.05,14
+S09,1,19.4,3.2,0.957,0.023,24.6,0.76,0.0,Middle East,Electronics,False,0.22,20
+S09,2,18.4,0.0,1.0,0.0124,33.4,0.81,0.0,Middle East,Electronics,False,0.22,20
+S09,3,19.7,3.0,0.977,0.0213,24.1,0.7,0.0,Middle East,Electronics,False,0.22,20
+S09,4,21.7,3.7,0.851,0.0289,27.6,0.76,0.0,Middle East,Electronics,False,0.22,20
+S09,5,22.8,0.7,0.868,0.0209,23.9,0.87,0.0,Middle East,Electronics,False,0.22,20
+S09,6,17.6,0.0,0.999,0.0128,28.9,0.77,0.0,Middle East,Electronics,False,0.22,20
+S09,7,20.0,0.0,0.996,0.0195,30.6,0.73,0.0,Middle East,Electronics,False,0.22,20
+S09,8,18.7,0.1,0.96,0.0145,25.3,0.74,0.0,Middle East,Electronics,False,0.22,20
+S09,9,17.4,0.0,1.0,0.0098,29.7,0.68,0.0,Middle East,Electronics,False,0.22,20
+S09,10,18.4,1.0,1.0,0.0082,37.9,0.72,0.0,Middle East,Electronics,False,0.22,20
+S09,11,18.2,0.0,1.0,0.0114,42.3,0.63,0.0,Middle East,Electronics,False,0.22,20
+S09,12,19.1,0.0,0.916,0.0123,33.4,0.74,0.0,Middle East,Electronics,False,0.22,20
+S09,13,19.3,0.0,1.0,0.0144,34.1,0.7,0.0,Middle East,Electronics,False,0.22,20
+S09,14,20.1,2.7,0.924,0.0213,31.6,0.84,1.0,Middle East,Electronics,False,0.22,20
+S09,15,21.7,2.7,0.795,0.0284,24.6,0.84,1.0,Middle East,Electronics,False,0.22,20
+S09,16,21.9,2.7,0.832,0.0344,18.2,0.72,1.0,Middle East,Electronics,False,0.22,20
+S09,17,23.9,4.0,0.801,0.0249,12.4,0.86,1.0,Middle East,Electronics,False,0.22,20
+S09,18,24.4,5.3,0.747,0.0338,11.4,1.0,1.0,Middle East,Electronics,False,0.22,20
+S09,19,22.8,5.3,0.857,0.0438,23.1,0.83,0.0,Middle East,Electronics,False,0.22,20
+S09,20,21.5,2.7,0.978,0.0164,33.6,0.81,0.0,Middle East,Electronics,False,0.22,20
+S09,21,19.8,1.6,0.874,0.0193,26.9,0.74,0.0,Middle East,Electronics,False,0.22,20
+S09,22,19.5,0.4,0.943,0.02,32.9,0.73,0.0,Middle East,Electronics,False,0.22,20
+S09,23,21.8,2.3,0.863,0.0213,25.9,0.75,0.0,Middle East,Electronics,False,0.22,20
+S09,24,20.4,0.0,0.913,0.0167,28.1,0.86,,Middle East,Electronics,False,0.22,20
+S10,1,17.4,0.0,0.935,0.0042,26.4,0.75,0.0,North America,Packaging,False,0.02,17
+S10,2,18.8,2.6,0.923,0.0318,21.7,0.79,0.0,North America,Packaging,False,0.02,17
+S10,3,17.5,3.1,0.939,0.0242,28.3,1.03,1.0,North America,Packaging,False,0.02,17
+S10,4,20.4,3.0,0.77,0.0416,25.0,0.93,1.0,North America,Packaging,False,0.02,17
+S10,5,18.2,3.9,0.877,0.0223,14.4,0.81,0.0,North America,Packaging,False,0.02,17
+S10,6,19.7,4.5,0.803,0.0345,21.1,0.78,0.0,North America,Packaging,False,0.02,17
+S10,7,17.2,4.5,0.909,0.0212,27.9,0.8,0.0,North America,Packaging,False,0.02,17
+S10,8,18.5,2.6,0.795,0.0216,23.7,0.8,0.0,North America,Packaging,False,0.02,17
+S10,9,18.4,1.3,0.916,0.0325,22.3,0.67,0.0,North America,Packaging,False,0.02,17
+S10,10,18.0,4.8,0.835,0.0258,27.7,0.84,0.0,North America,Packaging,False,0.02,17
+S10,11,18.4,2.4,0.927,0.0118,22.5,0.75,0.0,North America,Packaging,False,0.02,17
+S10,12,18.4,1.6,0.89,0.032,20.2,0.75,0.0,North America,Packaging,False,0.02,17
+S10,13,19.0,3.4,0.885,0.0227,23.4,0.81,0.0,North America,Packaging,False,0.02,17
+S10,14,18.3,1.2,0.89,0.0119,26.0,0.74,0.0,North America,Packaging,False,0.02,17
+S10,15,16.7,0.3,0.956,0.0171,30.9,0.71,0.0,North America,Packaging,False,0.02,17
+S10,16,16.2,0.0,1.0,0.0085,43.1,0.74,0.0,North America,Packaging,False,0.02,17
+S10,17,18.8,3.1,0.962,0.0177,15.2,0.77,1.0,North America,Packaging,False,0.02,17
+S10,18,18.0,3.0,0.864,0.0269,25.7,0.74,1.0,North America,Packaging,False,0.02,17
+S10,19,19.6,2.9,0.85,0.0265,17.0,0.83,0.0,North America,Packaging,False,0.02,17
+S10,20,17.4,0.5,0.928,0.0143,29.9,0.73,0.0,North America,Packaging,False,0.02,17
+S10,21,17.0,2.3,0.991,0.0112,34.9,0.71,0.0,North America,Packaging,False,0.02,17
+S10,22,16.0,0.0,0.982,0.001,36.7,0.73,0.0,North America,Packaging,False,0.02,17
+S10,23,15.4,0.0,1.0,0.0039,36.9,0.78,0.0,North America,Packaging,False,0.02,17
+S10,24,17.3,1.0,0.909,0.017,31.7,0.78,,North America,Packaging,False,0.02,17
+S11,1,29.5,0.0,0.967,0.0225,21.8,0.73,0.0,Asia,Components,True,0.37,29
+S11,2,28.6,0.3,0.992,0.0229,32.7,0.74,0.0,Asia,Components,True,0.37,29
+S11,3,29.2,0.9,0.916,0.0246,19.8,0.82,0.0,Asia,Components,True,0.37,29
+S11,4,30.6,3.1,0.848,0.0282,21.6,0.81,1.0,Asia,Components,True,0.37,29
+S11,5,30.1,2.7,0.908,0.0385,25.7,0.83,0.0,Asia,Components,True,0.37,29
+S11,6,31.1,2.5,0.94,0.0239,24.1,0.67,1.0,Asia,Components,True,0.37,29
+S11,7,30.9,2.9,0.841,0.0287,17.6,0.73,1.0,Asia,Components,True,0.37,29
+S11,8,28.2,4.0,0.93,0.0304,20.5,0.71,0.0,Asia,Components,True,0.37,29
+S11,9,25.7,1.1,0.943,0.0116,24.6,0.77,0.0,Asia,Components,True,0.37,29
+S11,10,27.4,2.1,0.926,0.0254,18.6,0.73,0.0,Asia,Components,True,0.37,29
+S11,11,28.4,1.1,0.967,0.0153,26.1,0.61,0.0,Asia,Components,True,0.37,29
+S11,12,25.5,0.1,1.0,0.0144,21.0,0.59,0.0,Asia,Components,True,0.37,29
+S11,13,25.3,0.0,0.987,0.0162,29.3,0.73,1.0,Asia,Components,True,0.37,29
+S11,14,26.0,0.1,0.984,0.018,26.6,0.64,0.0,Asia,Components,True,0.37,29
+S11,15,26.3,0.4,0.937,0.0117,32.5,0.61,0.0,Asia,Components,True,0.37,29
+S11,16,28.1,0.0,0.946,0.0143,27.4,0.71,0.0,Asia,Components,True,0.37,29
+S11,17,24.9,0.0,1.0,0.009,36.8,0.76,0.0,Asia,Components,True,0.37,29
+S11,18,30.4,2.7,0.885,0.0156,25.3,0.81,1.0,Asia,Components,True,0.37,29
+S11,19,30.7,2.4,0.775,0.0371,19.6,0.88,1.0,Asia,Components,True,0.37,29
+S11,20,31.4,5.1,0.868,0.0374,9.5,0.67,1.0,Asia,Components,True,0.37,29
+S11,21,32.3,4.0,0.833,0.0339,13.6,0.86,1.0,Asia,Components,True,0.37,29
+S11,22,30.2,2.2,0.848,0.0287,16.5,0.93,0.0,Asia,Components,True,0.37,29
+S11,23,29.0,1.8,0.924,0.0288,23.4,0.68,1.0,Asia,Components,True,0.37,29
+S11,24,29.4,2.1,0.878,0.0195,21.3,0.78,,Asia,Components,True,0.37,29
+S12,1,26.4,0.0,0.991,0.0334,20.6,0.76,0.0,North America,Electronics,True,0.36,27
+S12,2,27.0,0.0,0.946,0.0204,32.7,0.67,0.0,North America,Electronics,True,0.36,27
+S12,3,28.4,1.3,0.904,0.0125,34.6,0.76,0.0,North America,Electronics,True,0.36,27
+S12,4,25.7,0.5,0.999,0.0099,32.7,0.76,0.0,North America,Electronics,True,0.36,27
+S12,5,23.7,1.1,0.998,0.0047,28.7,0.6,0.0,North America,Electronics,True,0.36,27
+S12,6,24.3,0.0,0.961,0.0126,27.7,0.73,1.0,North America,Electronics,True,0.36,27
+S12,7,27.6,3.6,0.87,0.0265,8.8,0.73,1.0,North America,Electronics,True,0.36,27
+S12,8,28.2,0.0,0.85,0.0227,14.9,0.71,1.0,North America,Electronics,True,0.36,27
+S12,9,27.8,1.3,0.869,0.0301,21.5,0.79,1.0,North America,Electronics,True,0.36,27
+S12,10,26.9,2.1,0.868,0.008,12.9,0.74,1.0,North America,Electronics,True,0.36,27
+S12,11,28.8,3.9,0.801,0.0394,13.4,0.73,1.0,North America,Electronics,True,0.36,27
+S12,12,29.6,2.0,0.97,0.0242,22.8,0.86,0.0,North America,Electronics,True,0.36,27
+S12,13,27.0,2.3,0.915,0.0241,16.8,0.66,0.0,North America,Electronics,True,0.36,27
+S12,14,24.2,1.7,0.944,0.0126,30.7,0.74,0.0,North America,Electronics,True,0.36,27
+S12,15,26.0,0.5,0.911,0.023,24.8,0.74,0.0,North America,Electronics,True,0.36,27
+S12,16,26.0,0.7,0.91,0.0061,19.6,0.7,0.0,North America,Electronics,True,0.36,27
+S12,17,28.5,2.5,0.959,0.0211,25.9,0.57,0.0,North America,Electronics,True,0.36,27
+S12,18,28.9,2.3,0.855,0.0335,14.6,0.79,1.0,North America,Electronics,True,0.36,27
+S12,19,29.8,3.2,0.857,0.0261,15.1,0.72,0.0,North America,Electronics,True,0.36,27
+S12,20,28.1,4.5,0.861,0.0379,10.4,0.78,0.0,North America,Electronics,True,0.36,27
+S12,21,29.7,3.1,0.814,0.0259,13.4,0.68,0.0,North America,Electronics,True,0.36,27
+S12,22,26.0,0.8,0.959,0.0247,23.6,0.76,0.0,North America,Electronics,True,0.36,27
+S12,23,26.2,0.3,0.891,0.0275,17.3,0.79,0.0,North America,Electronics,True,0.36,27
+S12,24,28.4,2.3,0.825,0.0185,25.2,0.74,,North America,Electronics,True,0.36,27
+S13,1,33.3,1.1,0.824,0.0225,28.8,0.81,1.0,Middle East,Raw Materials,False,0.1,31
+S13,2,33.6,1.5,0.89,0.0249,20.5,0.8,0.0,Middle East,Raw Materials,False,0.1,31
+S13,3,36.2,5.7,0.815,0.0279,22.8,0.82,0.0,Middle East,Raw Materials,False,0.1,31
+S13,4,32.2,1.5,0.863,0.0111,26.2,0.84,0.0,Middle East,Raw Materials,False,0.1,31
+S13,5,30.4,0.0,0.927,0.0211,32.4,0.7,0.0,Middle East,Raw Materials,False,0.1,31
+S13,6,26.7,0.0,0.984,0.0158,38.8,0.73,0.0,Middle East,Raw Materials,False,0.1,31
+S13,7,28.2,0.0,1.0,0.01,38.2,0.68,0.0,Middle East,Raw Materials,False,0.1,31
+S13,8,29.4,0.0,0.979,0.001,30.4,0.69,0.0,Middle East,Raw Materials,False,0.1,31
+S13,9,26.3,0.0,1.0,0.0115,31.1,0.72,0.0,Middle East,Raw Materials,False,0.1,31
+S13,10,27.2,1.5,1.0,0.0059,37.0,0.61,0.0,Middle East,Raw Materials,False,0.1,31
+S13,11,28.0,0.0,1.0,0.0028,31.7,0.78,0.0,Middle East,Raw Materials,False,0.1,31
+S13,12,31.6,0.0,0.922,0.0209,30.5,0.74,0.0,Middle East,Raw Materials,False,0.1,31
+S13,13,33.0,1.3,0.872,0.0242,23.4,0.89,0.0,Middle East,Raw Materials,False,0.1,31
+S13,14,36.4,2.1,0.88,0.0319,22.8,0.87,0.0,Middle East,Raw Materials,False,0.1,31
+S13,15,33.5,0.9,0.925,0.0264,26.0,0.76,0.0,Middle East,Raw Materials,False,0.1,31
+S13,16,32.5,1.5,0.912,0.0122,28.6,0.6,0.0,Middle East,Raw Materials,False,0.1,31
+S13,17,32.2,3.7,0.941,0.0242,21.8,0.86,0.0,Middle East,Raw Materials,False,0.1,31
+S13,18,31.3,0.0,0.942,0.0228,29.3,0.64,0.0,Middle East,Raw Materials,False,0.1,31
+S13,19,32.8,0.0,0.914,0.023,31.6,0.82,0.0,Middle East,Raw Materials,False,0.1,31
+S13,20,31.4,0.9,0.867,0.0141,31.9,0.68,0.0,Middle East,Raw Materials,False,0.1,31
+S13,21,30.1,2.0,0.936,0.0061,22.5,0.83,0.0,Middle East,Raw Materials,False,0.1,31
+S13,22,30.2,0.0,1.0,0.0053,26.4,0.61,0.0,Middle East,Raw Materials,False,0.1,31
+S13,23,28.0,0.0,0.966,0.0131,37.6,0.62,0.0,Middle East,Raw Materials,False,0.1,31
+S13,24,32.7,0.5,0.906,0.023,18.8,0.72,,Middle East,Raw Materials,False,0.1,31
+S14,1,20.6,1.0,0.953,0.0145,20.2,0.72,0.0,Asia,Components,True,0.14,22
+S14,2,20.7,0.8,0.966,0.0128,22.2,0.73,1.0,Asia,Components,True,0.14,22
+S14,3,25.1,3.4,0.949,0.022,19.2,0.76,0.0,Asia,Components,True,0.14,22
+S14,4,23.5,2.7,0.88,0.0215,15.1,0.83,0.0,Asia,Components,True,0.14,22
+S14,5,24.0,2.2,0.871,0.0214,21.2,0.81,0.0,Asia,Components,True,0.14,22
+S14,6,23.8,1.6,0.866,0.0264,27.4,0.91,1.0,Asia,Components,True,0.14,22
+S14,7,23.5,3.8,0.828,0.0355,18.3,0.82,1.0,Asia,Components,True,0.14,22
+S14,8,23.0,4.0,0.909,0.017,24.5,0.75,0.0,Asia,Components,True,0.14,22
+S14,9,23.2,2.1,0.896,0.0188,18.1,0.6,1.0,Asia,Components,True,0.14,22
+S14,10,23.5,3.2,0.876,0.0104,23.4,0.77,1.0,Asia,Components,True,0.14,22
+S14,11,20.8,0.6,0.928,0.0155,30.4,0.72,0.0,Asia,Components,True,0.14,22
+S14,12,18.4,0.0,1.0,0.01,26.7,0.63,0.0,Asia,Components,True,0.14,22
+S14,13,18.4,0.6,1.0,0.001,25.7,0.65,1.0,Asia,Components,True,0.14,22
+S14,14,20.7,0.0,0.963,0.0116,30.1,0.8,0.0,Asia,Components,True,0.14,22
+S14,15,19.2,0.0,1.0,0.0067,33.7,0.73,0.0,Asia,Components,True,0.14,22
+S14,16,21.9,2.8,0.94,0.0121,29.7,0.74,0.0,Asia,Components,True,0.14,22
+S14,17,20.0,0.4,1.0,0.0123,28.3,0.71,0.0,Asia,Components,True,0.14,22
+S14,18,20.3,0.2,1.0,0.001,29.2,0.75,0.0,Asia,Components,True,0.14,22
+S14,19,20.8,1.3,1.0,0.0153,22.7,0.65,0.0,Asia,Components,True,0.14,22
+S14,20,21.0,0.6,1.0,0.0102,22.6,0.65,0.0,Asia,Components,True,0.14,22
+S14,21,21.0,1.0,1.0,0.0014,31.2,0.76,0.0,Asia,Components,True,0.14,22
+S14,22,20.9,1.0,0.972,0.0167,25.1,0.82,0.0,Asia,Components,True,0.14,22
+S14,23,23.2,1.7,0.935,0.022,17.8,0.77,0.0,Asia,Components,True,0.14,22
+S14,24,21.2,1.4,0.955,0.0112,14.9,0.81,,Asia,Components,True,0.14,22
+S15,1,13.6,1.1,0.953,0.0286,32.2,0.68,0.0,Middle East,Components,False,0.56,14
+S15,2,11.2,0.0,1.0,0.0157,38.9,0.64,0.0,Middle East,Components,False,0.56,14
+S15,3,12.4,0.0,0.966,0.0118,35.5,0.7,0.0,Middle East,Components,False,0.56,14
+S15,4,11.3,0.0,0.958,0.023,34.0,0.62,0.0,Middle East,Components,False,0.56,14
+S15,5,12.7,0.0,0.932,0.0153,31.7,0.68,0.0,Middle East,Components,False,0.56,14
+S15,6,12.2,0.0,1.0,0.0158,34.0,0.72,0.0,Middle East,Components,False,0.56,14
+S15,7,11.3,0.0,1.0,0.001,39.0,0.79,0.0,Middle East,Components,False,0.56,14
+S15,8,13.3,0.0,1.0,0.0151,31.9,0.59,0.0,Middle East,Components,False,0.56,14
+S15,9,12.1,0.0,0.953,0.001,40.9,0.55,0.0,Middle East,Components,False,0.56,14
+S15,10,12.6,0.0,0.985,0.0227,33.3,0.62,0.0,Middle East,Components,False,0.56,14
+S15,11,12.7,0.0,0.988,0.0349,32.3,0.68,0.0,Middle East,Components,False,0.56,14
+S15,12,14.8,1.4,0.852,0.0379,23.5,0.72,0.0,Middle East,Components,False,0.56,14
+S15,13,14.1,1.4,0.892,0.0409,26.8,0.87,0.0,Middle East,Components,False,0.56,14
+S15,14,14.8,2.9,0.839,0.0363,22.1,0.81,1.0,Middle East,Components,False,0.56,14
+S15,15,16.1,3.8,0.725,0.0422,18.9,0.82,1.0,Middle East,Components,False,0.56,14
+S15,16,16.3,3.6,0.76,0.048,12.4,0.92,1.0,Middle East,Components,False,0.56,14
+S15,17,16.4,4.1,0.702,0.0436,15.3,0.87,0.0,Middle East,Components,False,0.56,14
+S15,18,15.4,4.2,0.798,0.0417,18.3,0.89,1.0,Middle East,Components,False,0.56,14
+S15,19,15.4,4.9,0.803,0.0485,15.9,0.83,0.0,Middle East,Components,False,0.56,14
+S15,20,15.2,3.4,0.852,0.0337,23.0,0.66,1.0,Middle East,Components,False,0.56,14
+S15,21,15.1,1.8,0.834,0.0324,22.8,0.86,0.0,Middle East,Components,False,0.56,14
+S15,22,13.0,0.4,0.887,0.0243,32.8,0.79,0.0,Middle East,Components,False,0.56,14
+S15,23,12.9,0.0,0.984,0.0242,37.2,0.69,0.0,Middle East,Components,False,0.56,14
+S15,24,14.0,1.1,0.969,0.0214,29.3,0.76,,Middle East,Components,False,0.56,14
+S16,1,6.9,2.3,0.884,0.0229,31.8,0.85,1.0,North America,Electronics,False,0.35,7
+S16,2,7.8,3.3,0.738,0.0276,20.3,0.75,1.0,North America,Electronics,False,0.35,7
+S16,3,7.5,2.6,0.82,0.0286,21.1,0.99,0.0,North America,Electronics,False,0.35,7
+S16,4,7.0,0.0,0.904,0.0298,31.5,0.92,0.0,North America,Electronics,False,0.35,7
+S16,5,6.7,0.4,0.953,0.0251,30.1,0.74,1.0,North America,Electronics,False,0.35,7
+S16,6,7.2,2.5,0.948,0.0149,35.6,0.67,0.0,North America,Electronics,False,0.35,7
+S16,7,6.2,0.0,0.984,0.0059,30.1,0.68,0.0,North America,Electronics,False,0.35,7
+S16,8,6.1,0.0,1.0,0.0076,27.7,0.72,0.0,North America,Electronics,False,0.35,7
+S16,9,6.4,0.5,0.919,0.0295,34.1,0.58,0.0,North America,Electronics,False,0.35,7
+S16,10,6.7,0.0,0.892,0.0173,25.9,0.74,0.0,North America,Electronics,False,0.35,7
+S16,11,6.6,0.0,0.951,0.0107,33.0,0.8,0.0,North America,Electronics,False,0.35,7
+S16,12,6.7,0.9,0.862,0.0236,26.7,0.73,0.0,North America,Electronics,False,0.35,7
+S16,13,7.7,1.5,0.881,0.0365,26.4,0.74,0.0,North America,Electronics,False,0.35,7
+S16,14,7.4,3.1,0.873,0.0327,23.1,0.76,0.0,North America,Electronics,False,0.35,7
+S16,15,7.5,0.8,0.826,0.0235,27.7,0.81,0.0,North America,Electronics,False,0.35,7
+S16,16,8.0,2.8,0.896,0.0359,25.0,0.94,0.0,North America,Electronics,False,0.35,7
+S16,17,7.0,0.7,0.879,0.0248,22.5,0.92,0.0,North America,Electronics,False,0.35,7
+S16,18,7.4,2.6,0.867,0.0258,24.2,0.66,0.0,North America,Electronics,False,0.35,7
+S16,19,7.4,1.4,0.868,0.0313,21.9,0.72,0.0,North America,Electronics,False,0.35,7
+S16,20,7.0,0.9,0.927,0.0229,23.0,0.66,0.0,North America,Electronics,False,0.35,7
+S16,21,7.0,2.0,0.912,0.0206,29.4,0.74,0.0,North America,Electronics,False,0.35,7
+S16,22,7.4,3.2,0.874,0.0221,25.6,0.74,0.0,North America,Electronics,False,0.35,7
+S16,23,6.9,0.4,0.96,0.0143,25.5,0.73,0.0,North America,Electronics,False,0.35,7
+S16,24,7.2,0.0,0.9,0.0252,30.7,0.84,,North America,Electronics,False,0.35,7
+S17,1,15.5,1.4,0.987,0.0203,33.4,0.64,0.0,Asia,Packaging,False,0.48,17
+S17,2,14.6,0.0,1.0,0.0081,43.2,0.7,0.0,Asia,Packaging,False,0.48,17
+S17,3,13.5,0.0,1.0,0.0045,41.9,0.61,0.0,Asia,Packaging,False,0.48,17
+S17,4,14.9,0.0,1.0,0.0135,36.7,0.61,0.0,Asia,Packaging,False,0.48,17
+S17,5,13.5,0.0,1.0,0.0094,41.2,0.65,0.0,Asia,Packaging,False,0.48,17
+S17,6,15.0,0.0,1.0,0.0137,40.7,0.68,0.0,Asia,Packaging,False,0.48,17
+S17,7,15.8,0.0,1.0,0.0206,30.1,0.84,0.0,Asia,Packaging,False,0.48,17
+S17,8,15.9,1.0,0.857,0.0189,24.2,0.73,1.0,Asia,Packaging,False,0.48,17
+S17,9,15.7,3.4,0.889,0.0262,31.6,0.82,0.0,Asia,Packaging,False,0.48,17
+S17,10,17.9,3.1,0.773,0.0395,19.9,0.69,0.0,Asia,Packaging,False,0.48,17
+S17,11,17.0,2.1,0.851,0.0256,29.6,0.73,0.0,Asia,Packaging,False,0.48,17
+S17,12,16.0,0.9,0.893,0.0241,34.7,0.92,0.0,Asia,Packaging,False,0.48,17
+S17,13,17.3,3.4,0.865,0.028,25.2,0.66,0.0,Asia,Packaging,False,0.48,17
+S17,14,16.5,1.6,0.986,0.0254,35.5,0.61,0.0,Asia,Packaging,False,0.48,17
+S17,15,14.6,0.0,1.0,0.0059,38.8,0.57,0.0,Asia,Packaging,False,0.48,17
+S17,16,14.1,0.0,1.0,0.0167,48.6,0.6,0.0,Asia,Packaging,False,0.48,17
+S17,17,14.3,0.0,1.0,0.0126,37.6,0.7,0.0,Asia,Packaging,False,0.48,17
+S17,18,15.7,0.5,0.931,0.0144,35.3,0.67,0.0,Asia,Packaging,False,0.48,17
+S17,19,17.6,1.6,0.904,0.0287,28.9,0.78,0.0,Asia,Packaging,False,0.48,17
+S17,20,16.4,2.8,0.923,0.029,29.1,0.71,0.0,Asia,Packaging,False,0.48,17
+S17,21,16.7,0.3,0.978,0.0243,28.0,0.75,0.0,Asia,Packaging,False,0.48,17
+S17,22,18.2,1.5,0.893,0.0276,24.6,0.62,0.0,Asia,Packaging,False,0.48,17
+S17,23,17.8,0.9,0.884,0.0235,21.0,0.89,1.0,Asia,Packaging,False,0.48,17
+S17,24,18.1,3.7,0.854,0.0363,21.7,0.83,,Asia,Packaging,False,0.48,17
+S18,1,15.2,3.6,0.915,0.0242,22.8,0.64,0.0,Asia,Packaging,True,0.2,15
+S18,2,15.4,1.4,0.91,0.0222,23.8,0.72,0.0,Asia,Packaging,True,0.2,15
+S18,3,15.2,2.9,0.91,0.0111,25.2,0.88,0.0,Asia,Packaging,True,0.2,15
+S18,4,16.2,4.2,0.842,0.0176,16.6,0.82,0.0,Asia,Packaging,True,0.2,15
+S18,5,15.1,1.8,0.902,0.0115,19.9,0.74,0.0,Asia,Packaging,True,0.2,15
+S18,6,14.5,0.9,0.946,0.0171,26.1,0.81,0.0,Asia,Packaging,True,0.2,15
+S18,7,15.0,0.0,0.885,0.0211,22.2,0.82,0.0,Asia,Packaging,True,0.2,15
+S18,8,14.3,1.8,0.996,0.0154,17.1,0.79,0.0,Asia,Packaging,True,0.2,15
+S18,9,15.5,1.6,0.871,0.0126,21.5,0.82,0.0,Asia,Packaging,True,0.2,15
+S18,10,16.0,3.6,0.889,0.0207,20.9,0.75,0.0,Asia,Packaging,True,0.2,15
+S18,11,15.6,1.3,0.953,0.0264,27.6,0.73,0.0,Asia,Packaging,True,0.2,15
+S18,12,16.0,2.1,0.936,0.0118,21.7,0.82,0.0,Asia,Packaging,True,0.2,15
+S18,13,15.8,0.6,0.901,0.0108,28.7,0.64,0.0,Asia,Packaging,True,0.2,15
+S18,14,16.0,1.6,0.916,0.0289,16.3,0.84,0.0,Asia,Packaging,True,0.2,15
+S18,15,14.2,1.8,0.983,0.006,21.5,0.71,0.0,Asia,Packaging,True,0.2,15
+S18,16,15.2,1.3,0.911,0.0247,28.0,0.85,0.0,Asia,Packaging,True,0.2,15
+S18,17,14.5,1.4,0.919,0.0112,21.3,0.68,0.0,Asia,Packaging,True,0.2,15
+S18,18,14.2,0.5,0.96,0.0145,18.8,0.71,0.0,Asia,Packaging,True,0.2,15
+S18,19,16.2,2.4,0.856,0.0186,14.3,0.76,0.0,Asia,Packaging,True,0.2,15
+S18,20,15.0,1.3,1.0,0.0054,29.7,0.74,1.0,Asia,Packaging,True,0.2,15
+S18,21,14.8,0.9,0.944,0.0195,17.1,0.63,0.0,Asia,Packaging,True,0.2,15
+S18,22,13.8,0.1,0.919,0.0169,19.1,0.77,0.0,Asia,Packaging,True,0.2,15
+S18,23,14.3,0.8,1.0,0.0154,27.5,0.71,0.0,Asia,Packaging,True,0.2,15
+S18,24,13.3,0.0,1.0,0.0096,30.7,0.57,,Asia,Packaging,True,0.2,15
+S19,1,22.4,2.1,0.868,0.0298,21.1,0.73,0.0,Middle East,Raw Materials,False,0.29,21
+S19,2,18.5,0.0,0.943,0.0135,34.7,0.7,0.0,Middle East,Raw Materials,False,0.29,21
+S19,3,19.5,1.7,0.937,0.0294,24.2,0.6,0.0,Middle East,Raw Materials,False,0.29,21
+S19,4,21.0,1.9,0.877,0.0134,23.8,0.72,1.0,Middle East,Raw Materials,False,0.29,21
+S19,5,24.0,4.3,0.805,0.0262,14.5,0.78,1.0,Middle East,Raw Materials,False,0.29,21
+S19,6,24.2,1.9,0.775,0.0442,17.9,0.9,1.0,Middle East,Raw Materials,False,0.29,21
+S19,7,20.3,2.2,0.79,0.0325,22.1,0.8,1.0,Middle East,Raw Materials,False,0.29,21
+S19,8,21.8,3.1,0.841,0.0407,18.9,0.81,0.0,Middle East,Raw Materials,False,0.29,21
+S19,9,22.3,2.5,0.838,0.0215,26.5,0.79,0.0,Middle East,Raw Materials,False,0.29,21
+S19,10,21.0,0.0,0.983,0.0073,36.6,0.7,1.0,Middle East,Raw Materials,False,0.29,21
+S19,11,20.9,1.9,0.905,0.0212,23.0,0.75,0.0,Middle East,Raw Materials,False,0.29,21
+S19,12,22.8,1.2,0.877,0.0255,19.3,0.8,0.0,Middle East,Raw Materials,False,0.29,21
+S19,13,20.9,3.2,0.947,0.0295,26.0,0.76,1.0,Middle East,Raw Materials,False,0.29,21
+S19,14,22.0,2.3,0.797,0.0302,13.0,0.84,1.0,Middle East,Raw Materials,False,0.29,21
+S19,15,24.7,1.6,0.822,0.0312,21.9,0.87,0.0,Middle East,Raw Materials,False,0.29,21
+S19,16,24.8,2.8,0.806,0.0372,19.3,0.76,1.0,Middle East,Raw Materials,False,0.29,21
+S19,17,24.1,2.9,0.794,0.0429,13.2,0.88,0.0,Middle East,Raw Materials,False,0.29,21
+S19,18,23.1,3.0,0.816,0.0343,20.0,0.85,1.0,Middle East,Raw Materials,False,0.29,21
+S19,19,24.3,4.5,0.809,0.039,16.1,0.83,1.0,Middle East,Raw Materials,False,0.29,21
+S19,20,24.6,4.3,0.762,0.0386,19.6,0.74,1.0,Middle East,Raw Materials,False,0.29,21
+S19,21,24.0,4.0,0.783,0.0523,13.1,0.93,0.0,Middle East,Raw Materials,False,0.29,21
+S19,22,22.2,2.5,0.843,0.0342,23.3,0.63,1.0,Middle East,Raw Materials,False,0.29,21
+S19,23,22.8,0.5,0.831,0.028,20.6,0.92,0.0,Middle East,Raw Materials,False,0.29,21
+S19,24,21.7,3.1,0.989,0.0118,31.4,0.6,,Middle East,Raw Materials,False,0.29,21
+S20,1,25.6,0.0,1.0,0.0045,26.9,0.75,0.0,Asia,Raw Materials,True,0.27,27
+S20,2,24.2,0.4,0.979,0.0143,26.2,0.66,0.0,Asia,Raw Materials,True,0.27,27
+S20,3,26.3,0.0,0.959,0.0199,23.6,0.73,0.0,Asia,Raw Materials,True,0.27,27
+S20,4,25.5,0.0,0.947,0.0048,23.5,0.79,0.0,Asia,Raw Materials,True,0.27,27
+S20,5,28.6,1.1,0.907,0.0246,20.7,0.81,1.0,Asia,Raw Materials,True,0.27,27
+S20,6,26.4,1.2,0.96,0.022,22.4,0.67,1.0,Asia,Raw Materials,True,0.27,27
+S20,7,29.6,2.0,0.967,0.0282,22.8,0.84,0.0,Asia,Raw Materials,True,0.27,27
+S20,8,24.3,2.3,0.996,0.0111,23.4,0.83,0.0,Asia,Raw Materials,True,0.27,27
+S20,9,24.6,0.0,0.954,0.0147,24.8,0.76,0.0,Asia,Raw Materials,True,0.27,27
+S20,10,29.2,1.1,0.829,0.0202,17.4,0.88,0.0,Asia,Raw Materials,True,0.27,27
+S20,11,25.6,0.8,0.939,0.0079,18.6,0.69,1.0,Asia,Raw Materials,True,0.27,27
+S20,12,31.9,2.4,0.798,0.0429,7.3,0.92,1.0,Asia,Raw Materials,True,0.27,27
+S20,13,26.9,2.4,0.878,0.0384,10.5,0.86,1.0,Asia,Raw Materials,True,0.27,27
+S20,14,29.9,3.5,0.875,0.0241,28.4,0.8,0.0,Asia,Raw Materials,True,0.27,27
+S20,15,28.6,2.6,0.897,0.0274,18.5,0.78,1.0,Asia,Raw Materials,True,0.27,27
+S20,16,27.0,3.0,0.853,0.0219,13.1,0.74,1.0,Asia,Raw Materials,True,0.27,27
+S20,17,27.6,3.3,0.918,0.0205,10.2,0.71,0.0,Asia,Raw Materials,True,0.27,27
+S20,18,24.7,0.0,0.969,0.0181,27.5,0.81,0.0,Asia,Raw Materials,True,0.27,27
+S20,19,25.7,1.4,1.0,0.0141,28.2,0.69,0.0,Asia,Raw Materials,True,0.27,27
+S20,20,28.3,1.9,0.931,0.0147,23.8,0.58,0.0,Asia,Raw Materials,True,0.27,27
+S20,21,25.1,2.4,0.902,0.0213,22.3,0.75,0.0,Asia,Raw Materials,True,0.27,27
+S20,22,24.6,1.4,0.903,0.0197,24.7,0.61,0.0,Asia,Raw Materials,True,0.27,27
+S20,23,26.9,0.0,0.95,0.0155,31.4,0.82,0.0,Asia,Raw Materials,True,0.27,27
+S20,24,25.6,0.7,0.996,0.0133,28.7,0.7,,Asia,Raw Materials,True,0.27,27
+S21,1,23.2,3.8,0.878,0.022,17.8,0.83,0.0,Europe,Raw Materials,True,0.2,21
+S21,2,20.4,0.6,0.911,0.0098,24.1,0.69,0.0,Europe,Raw Materials,True,0.2,21
+S21,3,20.6,0.0,0.929,0.0089,23.3,0.78,0.0,Europe,Raw Materials,True,0.2,21
+S21,4,20.0,0.7,0.924,0.0364,29.9,0.71,0.0,Europe,Raw Materials,True,0.2,21
+S21,5,18.1,0.0,1.0,0.0075,30.5,0.81,0.0,Europe,Raw Materials,True,0.2,21
+S21,6,19.5,0.0,0.952,0.0287,26.7,0.79,0.0,Europe,Raw Materials,True,0.2,21
+S21,7,20.3,0.8,1.0,0.0172,39.1,0.8,0.0,Europe,Raw Materials,True,0.2,21
+S21,8,20.5,0.0,1.0,0.001,22.1,0.71,0.0,Europe,Raw Materials,True,0.2,21
+S21,9,20.4,0.4,0.931,0.0276,18.2,0.76,0.0,Europe,Raw Materials,True,0.2,21
+S21,10,19.0,1.4,0.979,0.0063,34.0,0.7,0.0,Europe,Raw Materials,True,0.2,21
+S21,11,20.8,1.7,0.885,0.0287,13.8,0.83,0.0,Europe,Raw Materials,True,0.2,21
+S21,12,21.2,0.2,0.895,0.0325,22.8,0.81,1.0,Europe,Raw Materials,True,0.2,21
+S21,13,24.1,4.3,0.787,0.0486,8.6,0.89,0.0,Europe,Raw Materials,True,0.2,21
+S21,14,23.5,2.2,0.813,0.0268,14.2,0.87,0.0,Europe,Raw Materials,True,0.2,21
+S21,15,22.5,2.1,0.906,0.0251,18.4,0.87,0.0,Europe,Raw Materials,True,0.2,21
+S21,16,20.3,1.3,0.94,0.0095,20.6,0.73,0.0,Europe,Raw Materials,True,0.2,21
+S21,17,21.2,1.5,0.97,0.0085,27.1,0.64,0.0,Europe,Raw Materials,True,0.2,21
+S21,18,18.9,0.0,0.972,0.0021,25.7,0.79,0.0,Europe,Raw Materials,True,0.2,21
+S21,19,19.3,1.1,0.966,0.0074,20.5,0.73,0.0,Europe,Raw Materials,True,0.2,21
+S21,20,21.4,2.5,0.872,0.0157,15.8,0.86,0.0,Europe,Raw Materials,True,0.2,21
+S21,21,23.1,2.6,0.886,0.032,23.4,0.66,0.0,Europe,Raw Materials,True,0.2,21
+S21,22,20.8,0.2,0.905,0.0315,17.6,0.83,0.0,Europe,Raw Materials,True,0.2,21
+S21,23,19.9,0.5,1.0,0.0125,35.5,0.72,0.0,Europe,Raw Materials,True,0.2,21
+S21,24,18.1,0.0,0.978,0.001,33.5,0.68,,Europe,Raw Materials,True,0.2,21
+S22,1,7.6,0.0,0.931,0.0115,22.7,0.62,0.0,North America,Packaging,False,0.17,8
+S22,2,7.5,0.6,0.962,0.0176,27.2,0.75,0.0,North America,Packaging,False,0.17,8
+S22,3,8.0,0.4,0.933,0.0166,31.6,0.73,0.0,North America,Packaging,False,0.17,8
+S22,4,7.9,0.8,0.953,0.0158,30.8,0.66,0.0,North America,Packaging,False,0.17,8
+S22,5,7.5,2.4,0.983,0.0157,31.8,0.8,0.0,North America,Packaging,False,0.17,8
+S22,6,7.4,0.1,0.906,0.0175,24.5,0.76,0.0,North America,Packaging,False,0.17,8
+S22,7,7.3,0.0,0.986,0.0081,29.9,0.6,0.0,North America,Packaging,False,0.17,8
+S22,8,7.8,1.4,0.989,0.0112,34.1,0.62,0.0,North America,Packaging,False,0.17,8
+S22,9,8.0,2.1,0.917,0.0154,30.0,0.74,0.0,North America,Packaging,False,0.17,8
+S22,10,7.9,1.7,0.856,0.0232,28.3,0.83,0.0,North America,Packaging,False,0.17,8
+S22,11,8.2,2.2,0.96,0.02,32.5,0.73,0.0,North America,Packaging,False,0.17,8
+S22,12,7.7,0.8,0.923,0.0156,26.7,0.64,0.0,North America,Packaging,False,0.17,8
+S22,13,8.2,2.5,0.917,0.0056,23.0,0.75,0.0,North America,Packaging,False,0.17,8
+S22,14,8.6,1.1,0.857,0.0169,34.2,0.71,0.0,North America,Packaging,False,0.17,8
+S22,15,7.8,0.0,0.937,0.0133,25.6,0.78,0.0,North America,Packaging,False,0.17,8
+S22,16,8.3,1.3,0.895,0.0197,28.6,0.72,0.0,North America,Packaging,False,0.17,8
+S22,17,8.1,0.0,0.839,0.0197,29.5,0.69,0.0,North America,Packaging,False,0.17,8
+S22,18,8.6,2.0,0.856,0.0301,22.9,0.92,0.0,North America,Packaging,False,0.17,8
+S22,19,8.6,1.8,0.791,0.0152,27.8,0.72,0.0,North America,Packaging,False,0.17,8
+S22,20,9.3,2.1,0.864,0.0298,20.4,0.68,1.0,North America,Packaging,False,0.17,8
+S22,21,8.7,3.4,0.88,0.0302,20.0,0.87,0.0,North America,Packaging,False,0.17,8
+S22,22,8.0,2.7,0.921,0.0326,19.0,0.88,0.0,North America,Packaging,False,0.17,8
+S22,23,7.8,0.9,0.894,0.0158,24.7,0.73,1.0,North America,Packaging,False,0.17,8
+S22,24,8.6,0.9,0.842,0.0131,16.0,0.83,,North America,Packaging,False,0.17,8
+S23,1,15.7,2.3,0.956,0.0312,24.6,0.72,1.0,Europe,Packaging,False,0.14,15
+S23,2,16.5,2.2,0.864,0.0247,20.1,0.99,0.0,Europe,Packaging,False,0.14,15
+S23,3,14.7,0.0,0.947,0.0102,24.6,0.73,0.0,Europe,Packaging,False,0.14,15
+S23,4,14.7,0.0,1.0,0.0206,28.2,0.65,0.0,Europe,Packaging,False,0.14,15
+S23,5,14.0,0.0,1.0,0.0083,29.5,0.85,0.0,Europe,Packaging,False,0.14,15
+S23,6,14.7,0.4,0.997,0.0164,23.5,0.69,0.0,Europe,Packaging,False,0.14,15
+S23,7,14.0,0.0,0.965,0.0169,30.2,0.69,0.0,Europe,Packaging,False,0.14,15
+S23,8,15.4,0.3,1.0,0.009,30.4,0.71,0.0,Europe,Packaging,False,0.14,15
+S23,9,15.0,0.9,1.0,0.0167,27.7,0.66,0.0,Europe,Packaging,False,0.14,15
+S23,10,15.7,1.5,0.936,0.011,38.2,0.69,0.0,Europe,Packaging,False,0.14,15
+S23,11,13.9,0.0,0.998,0.0091,31.8,0.71,0.0,Europe,Packaging,False,0.14,15
+S23,12,15.1,0.0,0.994,0.0148,35.3,0.74,0.0,Europe,Packaging,False,0.14,15
+S23,13,13.3,0.8,1.0,0.0097,43.2,0.81,0.0,Europe,Packaging,False,0.14,15
+S23,14,14.4,0.0,1.0,0.01,33.8,0.63,0.0,Europe,Packaging,False,0.14,15
+S23,15,13.5,0.0,1.0,0.0058,37.6,0.72,0.0,Europe,Packaging,False,0.14,15
+S23,16,12.7,0.0,1.0,0.001,36.4,0.61,0.0,Europe,Packaging,False,0.14,15
+S23,17,14.0,1.2,0.992,0.0154,36.2,0.68,0.0,Europe,Packaging,False,0.14,15
+S23,18,13.5,0.0,1.0,0.0112,30.8,0.57,0.0,Europe,Packaging,False,0.14,15
+S23,19,14.2,1.5,0.969,0.0181,29.9,0.62,0.0,Europe,Packaging,False,0.14,15
+S23,20,13.7,0.0,0.987,0.0034,38.4,0.82,0.0,Europe,Packaging,False,0.14,15
+S23,21,13.6,0.0,1.0,0.001,31.6,0.73,0.0,Europe,Packaging,False,0.14,15
+S23,22,14.6,0.0,0.958,0.001,26.5,0.65,0.0,Europe,Packaging,False,0.14,15
+S23,23,14.5,0.0,0.922,0.0142,33.7,0.69,0.0,Europe,Packaging,False,0.14,15
+S23,24,13.2,1.6,0.953,0.0215,23.7,0.92,,Europe,Packaging,False,0.14,15
+S24,1,20.8,4.3,0.824,0.0283,19.8,0.67,0.0,Asia,Components,False,0.4,18
+S24,2,20.0,4.2,0.801,0.0342,18.2,0.88,1.0,Asia,Components,False,0.4,18
+S24,3,21.9,3.5,0.757,0.0296,18.1,0.97,0.0,Asia,Components,False,0.4,18
+S24,4,18.0,2.9,0.847,0.0209,21.7,0.7,0.0,Asia,Components,False,0.4,18
+S24,5,17.7,1.6,0.867,0.03,30.2,0.79,0.0,Asia,Components,False,0.4,18
+S24,6,17.1,0.5,0.937,0.0203,25.1,0.69,0.0,Asia,Components,False,0.4,18
+S24,7,17.1,1.9,0.953,0.0131,28.4,0.86,0.0,Asia,Components,False,0.4,18
+S24,8,17.3,2.0,0.88,0.0201,29.4,0.82,0.0,Asia,Components,False,0.4,18
+S24,9,18.2,2.2,0.898,0.0134,34.4,0.76,0.0,Asia,Components,False,0.4,18
+S24,10,17.4,0.5,1.0,0.0109,32.5,0.65,0.0,Asia,Components,False,0.4,18
+S24,11,17.7,0.6,0.913,0.0197,30.4,0.78,0.0,Asia,Components,False,0.4,18
+S24,12,17.6,0.8,0.989,0.0171,34.5,0.73,0.0,Asia,Components,False,0.4,18
+S24,13,17.2,1.9,0.967,0.0043,27.6,0.57,0.0,Asia,Components,False,0.4,18
+S24,14,16.5,1.0,0.902,0.0149,25.4,0.68,0.0,Asia,Components,False,0.4,18
+S24,15,15.7,0.5,1.0,0.0079,35.6,0.62,0.0,Asia,Components,False,0.4,18
+S24,16,17.6,0.0,1.0,0.012,33.4,0.79,0.0,Asia,Components,False,0.4,18
+S24,17,16.9,1.8,0.936,0.0281,30.7,0.74,0.0,Asia,Components,False,0.4,18
+S24,18,16.2,0.9,1.0,0.0312,33.7,0.66,0.0,Asia,Components,False,0.4,18
+S24,19,17.9,1.9,0.985,0.022,26.1,0.74,0.0,Asia,Components,False,0.4,18
+S24,20,18.9,2.5,0.894,0.0293,22.0,0.71,0.0,Asia,Components,False,0.4,18
+S24,21,19.8,3.3,0.893,0.0229,21.0,0.77,0.0,Asia,Components,False,0.4,18
+S24,22,18.1,2.9,0.972,0.0242,30.8,0.63,1.0,Asia,Components,False,0.4,18
+S24,23,19.4,2.6,0.84,0.0222,25.4,0.68,1.0,Asia,Components,False,0.4,18
+S24,24,18.8,3.7,0.812,0.0306,28.5,0.81,,Asia,Components,False,0.4,18
+S25,1,27.2,1.6,0.861,0.0197,29.3,0.75,0.0,Asia,Packaging,False,0.43,27
+S25,2,27.1,3.0,0.912,0.0226,31.9,0.85,0.0,Asia,Packaging,False,0.43,27
+S25,3,27.6,2.5,0.92,0.0281,30.0,0.79,0.0,Asia,Packaging,False,0.43,27
+S25,4,26.4,2.1,0.9,0.0217,31.5,0.82,0.0,Asia,Packaging,False,0.43,27
+S25,5,31.4,3.8,0.827,0.0293,28.7,0.84,0.0,Asia,Packaging,False,0.43,27
+S25,6,29.2,3.9,0.873,0.028,26.7,0.65,0.0,Asia,Packaging,False,0.43,27
+S25,7,25.3,0.0,0.934,0.0103,23.0,0.82,0.0,Asia,Packaging,False,0.43,27
+S25,8,27.2,1.1,0.813,0.0338,28.3,0.78,1.0,Asia,Packaging,False,0.43,27
+S25,9,31.9,3.1,0.783,0.0446,23.0,0.83,0.0,Asia,Packaging,False,0.43,27
+S25,10,26.3,1.8,0.876,0.0312,22.2,0.67,0.0,Asia,Packaging,False,0.43,27
+S25,11,27.0,2.3,0.908,0.0301,24.6,0.78,1.0,Asia,Packaging,False,0.43,27
+S25,12,27.9,2.6,0.851,0.0162,22.4,0.66,0.0,Asia,Packaging,False,0.43,27
+S25,13,29.7,1.8,0.883,0.0265,17.7,0.85,0.0,Asia,Packaging,False,0.43,27
+S25,14,26.6,0.0,1.0,0.0158,27.9,0.6,1.0,Asia,Packaging,False,0.43,27
+S25,15,26.5,1.1,0.972,0.0111,24.9,0.71,0.0,Asia,Packaging,False,0.43,27
+S25,16,27.6,1.8,0.909,0.028,28.8,0.62,0.0,Asia,Packaging,False,0.43,27
+S25,17,23.9,0.5,0.935,0.0197,38.5,0.79,0.0,Asia,Packaging,False,0.43,27
+S25,18,26.7,1.6,0.94,0.0237,28.9,0.74,0.0,Asia,Packaging,False,0.43,27
+S25,19,25.6,0.0,0.908,0.0232,23.4,0.8,0.0,Asia,Packaging,False,0.43,27
+S25,20,26.4,1.3,0.929,0.0215,29.9,0.56,0.0,Asia,Packaging,False,0.43,27
+S25,21,27.2,2.5,0.926,0.0201,24.6,0.71,0.0,Asia,Packaging,False,0.43,27
+S25,22,28.1,4.5,0.873,0.0235,28.2,0.71,0.0,Asia,Packaging,False,0.43,27
+S25,23,28.9,4.5,0.776,0.0325,18.7,0.86,1.0,Asia,Packaging,False,0.43,27
+S25,24,29.5,1.6,0.853,0.0355,21.1,0.81,,Asia,Packaging,False,0.43,27
+S26,1,22.7,1.4,0.909,0.0204,25.4,0.74,0.0,Europe,Packaging,False,0.24,22
+S26,2,22.1,2.2,0.959,0.0181,36.4,0.68,0.0,Europe,Packaging,False,0.24,22
+S26,3,21.5,1.2,1.0,0.0158,30.1,0.7,0.0,Europe,Packaging,False,0.24,22
+S26,4,19.2,0.0,0.993,0.004,36.5,0.8,0.0,Europe,Packaging,False,0.24,22
+S26,5,21.9,0.9,0.953,0.008,28.0,0.62,0.0,Europe,Packaging,False,0.24,22
+S26,6,21.1,0.0,0.955,0.0138,28.4,0.78,0.0,Europe,Packaging,False,0.24,22
+S26,7,21.4,0.1,0.982,0.0051,25.2,0.67,0.0,Europe,Packaging,False,0.24,22
+S26,8,23.4,2.6,0.889,0.0192,26.5,0.74,0.0,Europe,Packaging,False,0.24,22
+S26,9,21.8,1.1,0.906,0.0254,27.1,0.77,0.0,Europe,Packaging,False,0.24,22
+S26,10,20.4,0.7,1.0,0.0122,31.5,0.69,0.0,Europe,Packaging,False,0.24,22
+S26,11,20.4,1.6,0.992,0.0145,30.3,0.68,0.0,Europe,Packaging,False,0.24,22
+S26,12,21.2,1.2,0.917,0.0149,39.2,0.55,0.0,Europe,Packaging,False,0.24,22
+S26,13,24.0,1.3,0.893,0.0241,21.5,0.79,1.0,Europe,Packaging,False,0.24,22
+S26,14,24.2,2.2,0.84,0.0377,12.5,0.74,0.0,Europe,Packaging,False,0.24,22
+S26,15,21.3,0.0,0.954,0.0175,28.3,0.77,0.0,Europe,Packaging,False,0.24,22
+S26,16,20.8,0.6,0.928,0.0056,28.1,0.9,0.0,Europe,Packaging,False,0.24,22
+S26,17,19.8,1.8,0.973,0.0156,34.2,0.7,0.0,Europe,Packaging,False,0.24,22
+S26,18,21.1,0.9,0.927,0.0175,33.7,0.61,0.0,Europe,Packaging,False,0.24,22
+S26,19,22.7,2.4,0.946,0.0279,31.9,0.76,0.0,Europe,Packaging,False,0.24,22
+S26,20,21.1,0.0,0.993,0.0181,25.3,0.68,0.0,Europe,Packaging,False,0.24,22
+S26,21,22.7,0.5,0.892,0.0191,20.5,0.88,0.0,Europe,Packaging,False,0.24,22
+S26,22,23.2,2.5,0.857,0.0204,18.7,0.82,0.0,Europe,Packaging,False,0.24,22
+S26,23,24.6,2.3,0.842,0.031,21.5,0.86,0.0,Europe,Packaging,False,0.24,22
+S26,24,20.3,0.0,0.967,0.0155,35.3,0.79,,Europe,Packaging,False,0.24,22
+S27,1,30.5,1.5,0.81,0.0372,17.3,0.89,1.0,North America,Electronics,False,0.54,30
+S27,2,33.0,3.4,0.764,0.0439,13.5,0.79,0.0,North America,Electronics,False,0.54,30
+S27,3,32.1,2.2,0.809,0.0369,18.2,0.71,0.0,North America,Electronics,False,0.54,30
+S27,4,33.2,2.7,0.827,0.0374,21.5,0.88,0.0,North America,Electronics,False,0.54,30
+S27,5,28.5,3.0,0.856,0.0277,25.2,0.71,0.0,North America,Electronics,False,0.54,30
+S27,6,30.5,0.5,0.862,0.0341,28.6,0.71,1.0,North America,Electronics,False,0.54,30
+S27,7,30.8,0.5,0.905,0.0282,24.9,0.86,0.0,North America,Electronics,False,0.54,30
+S27,8,29.0,0.8,0.933,0.0248,23.8,0.85,0.0,North America,Electronics,False,0.54,30
+S27,9,31.6,1.0,0.913,0.0259,32.6,0.76,0.0,North America,Electronics,False,0.54,30
+S27,10,31.1,1.4,0.812,0.0508,25.4,0.74,0.0,North America,Electronics,False,0.54,30
+S27,11,31.7,0.6,0.863,0.0259,30.4,0.75,0.0,North America,Electronics,False,0.54,30
+S27,12,30.5,1.4,0.817,0.0325,23.8,0.7,1.0,North America,Electronics,False,0.54,30
+S27,13,30.7,1.1,0.885,0.0265,24.7,0.66,0.0,North America,Electronics,False,0.54,30
+S27,14,31.8,0.4,0.912,0.0184,31.8,0.77,0.0,North America,Electronics,False,0.54,30
+S27,15,28.2,0.1,0.906,0.0271,34.1,0.75,0.0,North America,Electronics,False,0.54,30
+S27,16,27.9,0.0,0.995,0.0131,40.5,0.71,0.0,North America,Electronics,False,0.54,30
+S27,17,27.5,0.0,0.962,0.0246,36.1,0.68,0.0,North America,Electronics,False,0.54,30
+S27,18,29.3,0.0,0.975,0.0112,31.6,0.71,0.0,North America,Electronics,False,0.54,30
+S27,19,27.5,0.2,0.998,0.024,36.5,0.64,0.0,North America,Electronics,False,0.54,30
+S27,20,25.9,0.0,0.933,0.0126,41.1,0.61,0.0,North America,Electronics,False,0.54,30
+S27,21,28.7,0.0,0.956,0.0259,27.0,0.73,0.0,North America,Electronics,False,0.54,30
+S27,22,28.0,0.3,1.0,0.0287,29.6,0.68,0.0,North America,Electronics,False,0.54,30
+S27,23,26.7,0.0,0.92,0.0387,31.3,0.84,0.0,North America,Electronics,False,0.54,30
+S27,24,30.4,0.0,0.938,0.0229,31.6,0.67,,North America,Electronics,False,0.54,30
+S28,1,16.2,3.0,0.82,0.0398,26.2,0.93,1.0,Europe,Raw Materials,False,0.55,15
+S28,2,15.5,3.2,0.901,0.0316,21.9,0.71,1.0,Europe,Raw Materials,False,0.55,15
+S28,3,16.3,2.9,0.822,0.034,20.1,0.82,1.0,Europe,Raw Materials,False,0.55,15
+S28,4,15.1,2.2,0.931,0.0277,26.2,0.84,0.0,Europe,Raw Materials,False,0.55,15
+S28,5,16.8,3.3,0.818,0.046,20.6,0.84,0.0,Europe,Raw Materials,False,0.55,15
+S28,6,15.5,1.6,0.832,0.0297,20.3,0.69,0.0,Europe,Raw Materials,False,0.55,15
+S28,7,16.0,0.0,0.878,0.0351,33.6,0.77,0.0,Europe,Raw Materials,False,0.55,15
+S28,8,13.7,0.5,0.922,0.013,30.2,0.74,0.0,Europe,Raw Materials,False,0.55,15
+S28,9,15.5,0.0,0.901,0.0161,21.3,0.8,0.0,Europe,Raw Materials,False,0.55,15
+S28,10,14.6,0.4,0.953,0.0266,35.4,0.74,1.0,Europe,Raw Materials,False,0.55,15
+S28,11,15.6,2.7,0.823,0.0426,27.4,0.83,1.0,Europe,Raw Materials,False,0.55,15
+S28,12,15.0,2.2,0.842,0.0396,23.1,0.95,1.0,Europe,Raw Materials,False,0.55,15
+S28,13,17.0,3.2,0.801,0.0483,22.8,0.69,0.0,Europe,Raw Materials,False,0.55,15
+S28,14,14.7,0.8,0.95,0.0251,23.9,0.73,0.0,Europe,Raw Materials,False,0.55,15
+S28,15,14.1,0.6,0.89,0.0457,28.8,0.81,0.0,Europe,Raw Materials,False,0.55,15
+S28,16,15.6,2.4,0.84,0.0362,27.4,0.76,1.0,Europe,Raw Materials,False,0.55,15
+S28,17,15.0,0.6,0.878,0.0356,25.7,0.73,0.0,Europe,Raw Materials,False,0.55,15
+S28,18,15.6,1.6,0.854,0.0301,23.2,0.71,0.0,Europe,Raw Materials,False,0.55,15
+S28,19,15.5,1.3,0.842,0.0379,26.1,0.82,0.0,Europe,Raw Materials,False,0.55,15
+S28,20,15.7,0.9,0.851,0.025,32.5,0.74,0.0,Europe,Raw Materials,False,0.55,15
+S28,21,14.5,0.0,0.907,0.0354,26.3,0.67,0.0,Europe,Raw Materials,False,0.55,15
+S28,22,15.8,0.1,0.928,0.0133,22.3,0.87,0.0,Europe,Raw Materials,False,0.55,15
+S28,23,14.6,1.3,0.977,0.0226,33.5,0.59,0.0,Europe,Raw Materials,False,0.55,15
+S28,24,13.6,0.0,0.918,0.0219,36.1,0.73,,Europe,Raw Materials,False,0.55,15
+S29,1,9.1,2.1,0.82,0.0336,26.8,0.78,0.0,Europe,Electronics,False,0.67,9
+S29,2,9.7,0.3,0.888,0.0308,29.8,0.83,0.0,Europe,Electronics,False,0.67,9
+S29,3,9.1,0.1,0.871,0.031,20.5,0.79,0.0,Europe,Electronics,False,0.67,9
+S29,4,8.8,1.4,0.834,0.0388,28.8,0.75,0.0,Europe,Electronics,False,0.67,9
+S29,5,8.4,1.7,0.933,0.0359,37.8,0.49,0.0,Europe,Electronics,False,0.67,9
+S29,6,9.4,1.0,0.82,0.0339,37.4,0.7,0.0,Europe,Electronics,False,0.67,9
+S29,7,9.1,0.0,0.925,0.0468,27.2,0.66,0.0,Europe,Electronics,False,0.67,9
+S29,8,8.4,1.8,0.816,0.0259,22.7,0.82,1.0,Europe,Electronics,False,0.67,9
+S29,9,9.9,1.4,0.824,0.0351,24.1,0.85,0.0,Europe,Electronics,False,0.67,9
+S29,10,8.5,0.6,0.938,0.0348,36.3,0.76,0.0,Europe,Electronics,False,0.67,9
+S29,11,9.4,0.0,0.879,0.0232,28.1,0.68,0.0,Europe,Electronics,False,0.67,9
+S29,12,8.8,1.6,0.918,0.0295,30.7,0.71,0.0,Europe,Electronics,False,0.67,9
+S29,13,8.7,0.6,0.88,0.0345,29.8,0.78,0.0,Europe,Electronics,False,0.67,9
+S29,14,9.5,1.2,0.954,0.0289,35.7,0.8,0.0,Europe,Electronics,False,0.67,9
+S29,15,7.3,0.0,1.0,0.0197,38.3,0.69,0.0,Europe,Electronics,False,0.67,9
+S29,16,8.9,0.7,0.933,0.0238,28.6,0.8,0.0,Europe,Electronics,False,0.67,9
+S29,17,9.1,1.0,0.868,0.0345,31.2,0.71,0.0,Europe,Electronics,False,0.67,9
+S29,18,10.4,1.0,0.875,0.0439,23.8,0.82,1.0,Europe,Electronics,False,0.67,9
+S29,19,8.5,1.6,0.848,0.0282,31.9,0.67,0.0,Europe,Electronics,False,0.67,9
+S29,20,8.7,0.6,0.871,0.0208,24.0,0.67,1.0,Europe,Electronics,False,0.67,9
+S29,21,9.0,0.7,0.843,0.0367,22.9,0.85,1.0,Europe,Electronics,False,0.67,9
+S29,22,9.4,2.3,0.815,0.0384,22.0,0.77,0.0,Europe,Electronics,False,0.67,9
+S29,23,10.0,2.5,0.876,0.0384,26.1,0.7,0.0,Europe,Electronics,False,0.67,9
+S29,24,9.6,3.1,0.82,0.033,20.3,0.94,,Europe,Electronics,False,0.67,9
+S30,1,27.8,5.2,0.873,0.029,14.0,0.87,1.0,Asia,Packaging,True,0.2,26
+S30,2,27.4,2.6,0.887,0.019,12.9,0.7,1.0,Asia,Packaging,True,0.2,26
+S30,3,27.9,4.1,0.862,0.0355,12.9,0.82,0.0,Asia,Packaging,True,0.2,26
+S30,4,29.5,4.4,0.816,0.0164,11.6,0.76,0.0,Asia,Packaging,True,0.2,26
+S30,5,28.9,1.0,0.85,0.0299,14.4,0.71,1.0,Asia,Packaging,True,0.2,26
+S30,6,30.2,5.4,0.763,0.0324,7.4,0.88,0.0,Asia,Packaging,True,0.2,26
+S30,7,26.4,2.9,0.839,0.0138,11.0,0.64,1.0,Asia,Packaging,True,0.2,26
+S30,8,29.0,3.2,0.882,0.0281,14.0,0.83,0.0,Asia,Packaging,True,0.2,26
+S30,9,26.7,2.9,0.961,0.0161,19.6,0.75,1.0,Asia,Packaging,True,0.2,26
+S30,10,25.5,0.0,0.902,0.0108,16.1,0.68,0.0,Asia,Packaging,True,0.2,26
+S30,11,25.1,1.9,1.0,0.0127,24.8,0.78,0.0,Asia,Packaging,True,0.2,26
+S30,12,23.1,0.0,1.0,0.0121,23.3,0.54,0.0,Asia,Packaging,True,0.2,26
+S30,13,24.0,0.0,0.989,0.0137,17.3,0.67,0.0,Asia,Packaging,True,0.2,26
+S30,14,22.6,1.6,0.972,0.0069,35.0,0.79,0.0,Asia,Packaging,True,0.2,26
+S30,15,24.5,2.8,0.944,0.001,24.0,0.69,0.0,Asia,Packaging,True,0.2,26
+S30,16,21.7,0.0,1.0,0.0049,28.4,0.75,0.0,Asia,Packaging,True,0.2,26
+S30,17,22.5,0.0,1.0,0.0045,35.1,0.83,0.0,Asia,Packaging,True,0.2,26
+S30,18,23.7,0.0,1.0,0.0098,36.9,0.7,0.0,Asia,Packaging,True,0.2,26
+S30,19,25.6,1.8,0.918,0.0194,25.0,0.77,0.0,Asia,Packaging,True,0.2,26
+S30,20,23.6,0.7,0.963,0.0117,27.3,0.65,0.0,Asia,Packaging,True,0.2,26
+S30,21,24.2,0.0,1.0,0.0039,29.6,0.71,0.0,Asia,Packaging,True,0.2,26
+S30,22,26.7,0.9,0.982,0.0132,22.9,0.66,0.0,Asia,Packaging,True,0.2,26
+S30,23,24.9,0.9,0.934,0.018,27.4,0.69,0.0,Asia,Packaging,True,0.2,26
+S30,24,22.3,1.3,0.99,0.001,32.7,0.76,,Asia,Packaging,True,0.2,26
+S31,1,32.0,1.0,0.832,0.031,24.0,0.74,0.0,North America,Packaging,False,0.41,29
+S31,2,32.0,0.0,0.835,0.017,19.8,0.76,0.0,North America,Packaging,False,0.41,29
+S31,3,28.0,0.9,0.885,0.028,31.1,0.7,0.0,North America,Packaging,False,0.41,29
+S31,4,27.8,1.1,0.919,0.0239,27.2,0.79,0.0,North America,Packaging,False,0.41,29
+S31,5,30.1,1.0,0.919,0.0269,20.1,0.68,0.0,North America,Packaging,False,0.41,29
+S31,6,29.6,1.4,0.868,0.0251,36.5,0.86,0.0,North America,Packaging,False,0.41,29
+S31,7,25.0,0.1,0.963,0.0143,29.9,0.83,0.0,North America,Packaging,False,0.41,29
+S31,8,29.2,0.0,0.924,0.026,30.1,0.72,1.0,North America,Packaging,False,0.41,29
+S31,9,31.2,1.9,0.92,0.0215,33.7,0.78,1.0,North America,Packaging,False,0.41,29
+S31,10,29.9,2.0,0.86,0.0338,19.3,0.74,0.0,North America,Packaging,False,0.41,29
+S31,11,28.4,2.2,0.937,0.0245,38.3,0.69,1.0,North America,Packaging,False,0.41,29
+S31,12,31.4,2.3,0.852,0.0388,21.2,0.86,0.0,North America,Packaging,False,0.41,29
+S31,13,28.2,0.5,0.946,0.0152,25.6,0.71,0.0,North America,Packaging,False,0.41,29
+S31,14,29.7,1.7,0.933,0.018,27.3,0.82,0.0,North America,Packaging,False,0.41,29
+S31,15,31.0,0.8,0.857,0.0349,20.4,0.7,0.0,North America,Packaging,False,0.41,29
+S31,16,30.4,2.2,0.931,0.0355,26.1,0.91,0.0,North America,Packaging,False,0.41,29
+S31,17,30.8,2.6,0.818,0.0283,19.8,0.64,0.0,North America,Packaging,False,0.41,29
+S31,18,25.9,1.4,0.99,0.03,32.0,0.7,0.0,North America,Packaging,False,0.41,29
+S31,19,29.8,0.0,0.936,0.0191,27.6,0.79,0.0,North America,Packaging,False,0.41,29
+S31,20,26.6,0.1,0.952,0.0264,36.4,0.81,0.0,North America,Packaging,False,0.41,29
+S31,21,30.8,2.3,0.937,0.0234,27.2,0.75,0.0,North America,Packaging,False,0.41,29
+S31,22,27.4,0.3,0.897,0.0247,32.0,0.68,0.0,North America,Packaging,False,0.41,29
+S31,23,30.5,1.4,0.904,0.0387,25.6,0.82,0.0,North America,Packaging,False,0.41,29
+S31,24,25.6,0.0,0.925,0.0269,30.0,0.75,,North America,Packaging,False,0.41,29
+S32,1,8.1,0.0,0.898,0.0079,27.0,0.86,0.0,Asia,Electronics,False,0.27,8
+S32,2,8.2,1.0,0.944,0.0154,33.1,0.78,0.0,Asia,Electronics,False,0.27,8
+S32,3,8.0,0.0,0.925,0.0147,33.3,0.64,0.0,Asia,Electronics,False,0.27,8
+S32,4,8.2,1.4,0.929,0.0204,23.1,0.78,0.0,Asia,Electronics,False,0.27,8
+S32,5,8.5,3.1,0.88,0.0306,27.2,0.7,1.0,Asia,Electronics,False,0.27,8
+S32,6,8.8,4.4,0.827,0.0253,18.0,0.82,1.0,Asia,Electronics,False,0.27,8
+S32,7,8.6,4.6,0.843,0.0173,26.6,0.91,0.0,Asia,Electronics,False,0.27,8
+S32,8,8.7,4.3,0.861,0.0333,15.6,0.74,0.0,Asia,Electronics,False,0.27,8
+S32,9,8.0,1.4,0.911,0.0178,28.6,0.73,0.0,Asia,Electronics,False,0.27,8
+S32,10,7.7,3.1,0.903,0.0211,36.7,0.7,0.0,Asia,Electronics,False,0.27,8
+S32,11,7.5,0.4,0.976,0.0175,29.3,0.67,0.0,Asia,Electronics,False,0.27,8
+S32,12,8.1,1.7,0.948,0.0363,34.9,0.91,0.0,Asia,Electronics,False,0.27,8
+S32,13,7.8,1.2,0.959,0.0225,31.1,0.76,0.0,Asia,Electronics,False,0.27,8
+S32,14,7.8,1.5,0.947,0.0139,37.8,0.7,0.0,Asia,Electronics,False,0.27,8
+S32,15,7.6,0.6,0.995,0.021,33.2,0.77,0.0,Asia,Electronics,False,0.27,8
+S32,16,7.4,1.9,1.0,0.0078,36.2,0.74,0.0,Asia,Electronics,False,0.27,8
+S32,17,7.5,0.5,0.948,0.025,25.5,0.63,0.0,Asia,Electronics,False,0.27,8
+S32,18,8.8,0.7,0.919,0.0127,26.1,0.72,0.0,Asia,Electronics,False,0.27,8
+S32,19,8.4,1.2,0.892,0.0255,27.1,0.72,0.0,Asia,Electronics,False,0.27,8
+S32,20,8.9,4.6,0.877,0.0392,23.8,0.83,0.0,Asia,Electronics,False,0.27,8
+S32,21,8.2,1.8,0.969,0.0278,21.7,0.79,0.0,Asia,Electronics,False,0.27,8
+S32,22,8.9,1.4,0.837,0.0393,21.9,0.74,0.0,Asia,Electronics,False,0.27,8
+S32,23,9.1,3.1,0.84,0.0226,30.3,0.55,0.0,Asia,Electronics,False,0.27,8
+S32,24,7.9,0.1,0.963,0.016,22.7,0.71,,Asia,Electronics,False,0.27,8
+S33,1,25.0,0.0,0.97,0.0099,21.7,0.84,1.0,North America,Raw Materials,True,0.05,24
+S33,2,21.6,0.0,1.0,0.0094,42.4,0.71,0.0,North America,Raw Materials,True,0.05,24
+S33,3,20.5,0.0,1.0,0.001,27.9,0.53,0.0,North America,Raw Materials,True,0.05,24
+S33,4,24.4,1.8,0.969,0.0051,30.8,0.59,0.0,North America,Raw Materials,True,0.05,24
+S33,5,24.2,1.2,1.0,0.018,20.8,0.94,0.0,North America,Raw Materials,True,0.05,24
+S33,6,23.8,1.5,0.967,0.015,30.6,0.71,0.0,North America,Raw Materials,True,0.05,24
+S33,7,25.2,0.0,0.973,0.001,24.6,0.62,0.0,North America,Raw Materials,True,0.05,24
+S33,8,23.8,0.6,0.917,0.0214,19.6,0.69,1.0,North America,Raw Materials,True,0.05,24
+S33,9,25.6,2.2,0.938,0.0096,24.1,0.9,0.0,North America,Raw Materials,True,0.05,24
+S33,10,23.4,0.9,0.896,0.0205,21.7,0.71,1.0,North America,Raw Materials,True,0.05,24
+S33,11,25.0,0.6,0.919,0.0151,19.6,0.85,0.0,North America,Raw Materials,True,0.05,24
+S33,12,25.6,1.7,0.991,0.011,15.2,0.66,0.0,North America,Raw Materials,True,0.05,24
+S33,13,25.1,2.3,0.933,0.013,23.9,0.71,0.0,North America,Raw Materials,True,0.05,24
+S33,14,24.8,1.4,0.926,0.0159,17.7,0.79,0.0,North America,Raw Materials,True,0.05,24
+S33,15,24.5,2.2,0.863,0.0189,19.8,0.63,0.0,North America,Raw Materials,True,0.05,24
+S33,16,22.5,1.4,0.919,0.0125,22.3,0.86,0.0,North America,Raw Materials,True,0.05,24
+S33,17,22.2,0.2,0.932,0.0135,26.1,0.61,0.0,North America,Raw Materials,True,0.05,24
+S33,18,24.5,2.3,0.912,0.0325,21.3,0.76,0.0,North America,Raw Materials,True,0.05,24
+S33,19,25.9,3.2,0.905,0.0188,16.3,0.8,0.0,North America,Raw Materials,True,0.05,24
+S33,20,24.5,1.2,0.945,0.0072,22.3,0.76,0.0,North America,Raw Materials,True,0.05,24
+S33,21,22.7,0.6,0.914,0.0061,17.2,0.75,0.0,North America,Raw Materials,True,0.05,24
+S33,22,24.8,1.7,0.945,0.0181,19.6,0.75,0.0,North America,Raw Materials,True,0.05,24
+S33,23,23.4,4.2,0.933,0.0217,21.4,0.81,0.0,North America,Raw Materials,True,0.05,24
+S33,24,24.8,0.5,0.948,0.0239,17.2,0.74,,North America,Raw Materials,True,0.05,24
+S34,1,32.1,1.5,0.893,0.0207,33.9,0.81,0.0,Europe,Components,False,0.51,33
+S34,2,30.8,0.4,0.849,0.0176,33.4,0.71,0.0,Europe,Components,False,0.51,33
+S34,3,33.5,2.5,0.885,0.0326,25.1,0.71,0.0,Europe,Components,False,0.51,33
+S34,4,33.5,2.8,0.881,0.0358,22.3,0.86,0.0,Europe,Components,False,0.51,33
+S34,5,33.4,0.2,0.901,0.0207,35.0,0.64,0.0,Europe,Components,False,0.51,33
+S34,6,34.4,0.0,0.943,0.0301,22.3,0.77,0.0,Europe,Components,False,0.51,33
+S34,7,32.7,0.0,0.928,0.0317,36.1,0.57,0.0,Europe,Components,False,0.51,33
+S34,8,33.7,0.0,0.856,0.0275,29.3,0.74,0.0,Europe,Components,False,0.51,33
+S34,9,30.2,0.9,0.93,0.0363,29.2,0.75,0.0,Europe,Components,False,0.51,33
+S34,10,32.8,0.8,0.86,0.0399,30.3,0.68,0.0,Europe,Components,False,0.51,33
+S34,11,31.8,2.5,0.892,0.0218,22.4,0.76,0.0,Europe,Components,False,0.51,33
+S34,12,34.2,0.5,0.854,0.021,32.2,0.67,0.0,Europe,Components,False,0.51,33
+S34,13,30.7,0.2,0.944,0.0304,30.1,0.68,0.0,Europe,Components,False,0.51,33
+S34,14,33.8,0.9,0.905,0.0241,27.5,0.8,0.0,Europe,Components,False,0.51,33
+S34,15,32.5,2.6,0.917,0.0201,25.6,0.71,0.0,Europe,Components,False,0.51,33
+S34,16,28.8,0.4,0.937,0.0285,38.8,0.75,0.0,Europe,Components,False,0.51,33
+S34,17,29.9,0.1,0.946,0.0194,30.1,0.66,0.0,Europe,Components,False,0.51,33
+S34,18,31.6,0.0,0.894,0.0254,38.8,0.53,0.0,Europe,Components,False,0.51,33
+S34,19,32.8,0.2,0.928,0.0236,32.5,0.73,0.0,Europe,Components,False,0.51,33
+S34,20,30.0,0.0,0.975,0.0231,35.4,0.83,0.0,Europe,Components,False,0.51,33
+S34,21,32.3,0.2,0.91,0.0196,38.6,0.8,0.0,Europe,Components,False,0.51,33
+S34,22,31.9,0.2,0.903,0.0361,24.2,0.8,0.0,Europe,Components,False,0.51,33
+S34,23,28.9,0.0,0.961,0.0264,32.4,0.81,0.0,Europe,Components,False,0.51,33
+S34,24,32.0,0.0,0.975,0.012,40.6,0.76,,Europe,Components,False,0.51,33
+S35,1,27.9,0.6,0.904,0.024,25.2,0.64,1.0,Europe,Raw Materials,False,0.66,29
+S35,2,29.1,0.8,0.928,0.0358,29.5,0.69,0.0,Europe,Raw Materials,False,0.66,29
+S35,3,29.6,0.4,0.902,0.029,35.5,0.67,0.0,Europe,Raw Materials,False,0.66,29
+S35,4,31.1,0.4,0.887,0.0248,35.3,0.79,1.0,Europe,Raw Materials,False,0.66,29
+S35,5,30.1,1.4,0.808,0.0357,22.3,0.89,0.0,Europe,Raw Materials,False,0.66,29
+S35,6,27.7,1.4,0.948,0.0366,19.8,0.76,0.0,Europe,Raw Materials,False,0.66,29
+S35,7,30.1,3.8,0.877,0.0261,23.6,0.67,1.0,Europe,Raw Materials,False,0.66,29
+S35,8,32.6,3.3,0.796,0.0349,23.3,0.79,1.0,Europe,Raw Materials,False,0.66,29
+S35,9,32.5,3.4,0.744,0.0411,11.9,0.78,1.0,Europe,Raw Materials,False,0.66,29
+S35,10,32.0,3.0,0.7,0.0482,12.5,0.93,1.0,Europe,Raw Materials,False,0.66,29
+S35,11,29.8,2.7,0.744,0.0431,13.3,0.87,1.0,Europe,Raw Materials,False,0.66,29
+S35,12,32.0,2.7,0.84,0.0378,18.4,0.85,0.0,Europe,Raw Materials,False,0.66,29
+S35,13,30.3,2.1,0.882,0.0398,22.6,0.75,0.0,Europe,Raw Materials,False,0.66,29
+S35,14,27.9,1.3,0.905,0.0356,22.7,0.72,0.0,Europe,Raw Materials,False,0.66,29
+S35,15,31.0,2.6,0.795,0.0348,22.0,0.84,1.0,Europe,Raw Materials,False,0.66,29
+S35,16,32.0,2.8,0.802,0.0499,18.8,0.92,0.0,Europe,Raw Materials,False,0.66,29
+S35,17,33.0,3.4,0.844,0.0442,13.6,0.77,0.0,Europe,Raw Materials,False,0.66,29
+S35,18,31.2,0.1,0.873,0.0303,24.5,0.69,0.0,Europe,Raw Materials,False,0.66,29
+S35,19,29.3,0.8,0.898,0.0278,27.7,0.57,0.0,Europe,Raw Materials,False,0.66,29
+S35,20,29.1,1.1,0.937,0.0213,26.4,0.6,0.0,Europe,Raw Materials,False,0.66,29
+S35,21,29.5,1.5,0.907,0.0312,25.6,0.83,0.0,Europe,Raw Materials,False,0.66,29
+S35,22,26.8,0.2,0.947,0.0218,36.2,0.6,0.0,Europe,Raw Materials,False,0.66,29
+S35,23,25.8,0.4,0.987,0.0189,42.7,0.57,0.0,Europe,Raw Materials,False,0.66,29
+S35,24,25.3,0.0,1.0,0.0262,33.4,0.64,,Europe,Raw Materials,False,0.66,29
+S36,1,28.6,0.0,0.93,0.0129,42.3,0.71,0.0,Asia,Raw Materials,False,0.08,28
+S36,2,27.2,1.4,0.986,0.0167,25.9,0.71,0.0,Asia,Raw Materials,False,0.08,28
+S36,3,23.9,0.0,1.0,0.0145,34.7,0.79,0.0,Asia,Raw Materials,False,0.08,28
+S36,4,26.9,0.0,1.0,0.0082,39.6,0.69,0.0,Asia,Raw Materials,False,0.08,28
+S36,5,26.4,0.8,0.963,0.01,38.4,0.78,0.0,Asia,Raw Materials,False,0.08,28
+S36,6,25.4,0.0,1.0,0.0066,29.2,0.64,0.0,Asia,Raw Materials,False,0.08,28
+S36,7,25.7,1.4,1.0,0.001,31.0,0.86,0.0,Asia,Raw Materials,False,0.08,28
+S36,8,23.1,0.0,1.0,0.0061,36.0,0.61,0.0,Asia,Raw Materials,False,0.08,28
+S36,9,27.9,0.0,1.0,0.0161,33.2,0.42,0.0,Asia,Raw Materials,False,0.08,28
+S36,10,28.5,0.7,0.919,0.0089,36.8,0.73,0.0,Asia,Raw Materials,False,0.08,28
+S36,11,27.2,3.3,0.974,0.0067,24.3,0.74,0.0,Asia,Raw Materials,False,0.08,28
+S36,12,25.0,0.0,1.0,0.0068,37.3,0.57,0.0,Asia,Raw Materials,False,0.08,28
+S36,13,26.6,0.3,1.0,0.001,38.0,0.63,0.0,Asia,Raw Materials,False,0.08,28
+S36,14,25.0,0.0,1.0,0.0087,32.1,0.56,0.0,Asia,Raw Materials,False,0.08,28
+S36,15,25.3,0.1,1.0,0.0047,36.8,0.52,0.0,Asia,Raw Materials,False,0.08,28
+S36,16,28.2,2.7,0.944,0.0116,29.2,0.64,0.0,Asia,Raw Materials,False,0.08,28
+S36,17,27.6,0.1,0.984,0.0064,26.4,0.69,0.0,Asia,Raw Materials,False,0.08,28
+S36,18,26.7,0.0,0.971,0.0268,34.5,0.7,0.0,Asia,Raw Materials,False,0.08,28
+S36,19,28.0,2.7,0.963,0.0142,27.9,0.94,0.0,Asia,Raw Materials,False,0.08,28
+S36,20,26.9,2.4,0.925,0.0084,29.3,0.73,0.0,Asia,Raw Materials,False,0.08,28
+S36,21,31.1,2.6,0.868,0.0229,29.3,0.73,0.0,Asia,Raw Materials,False,0.08,28
+S36,22,26.9,0.5,0.924,0.0048,26.1,0.62,0.0,Asia,Raw Materials,False,0.08,28
+S36,23,24.8,0.0,0.994,0.0185,39.3,0.75,0.0,Asia,Raw Materials,False,0.08,28
+S36,24,27.0,0.0,1.0,0.0094,36.8,0.72,,Asia,Raw Materials,False,0.08,28
+S37,1,16.2,1.1,1.0,0.0112,33.0,0.68,0.0,Asia,Electronics,False,0.39,19
+S37,2,15.7,0.0,0.999,0.0131,35.0,0.71,0.0,Asia,Electronics,False,0.39,19
+S37,3,19.3,1.8,0.923,0.0206,32.7,0.72,0.0,Asia,Electronics,False,0.39,19
+S37,4,20.1,2.2,0.843,0.0328,24.9,0.77,0.0,Asia,Electronics,False,0.39,19
+S37,5,20.5,3.3,0.863,0.0323,16.8,0.68,0.0,Asia,Electronics,False,0.39,19
+S37,6,20.3,2.2,0.862,0.0416,24.3,0.74,1.0,Asia,Electronics,False,0.39,19
+S37,7,19.5,3.0,0.934,0.0241,26.8,0.76,0.0,Asia,Electronics,False,0.39,19
+S37,8,19.1,4.0,0.836,0.0371,24.9,0.78,0.0,Asia,Electronics,False,0.39,19
+S37,9,19.0,0.7,0.944,0.0177,37.6,0.7,0.0,Asia,Electronics,False,0.39,19
+S37,10,18.2,1.8,1.0,0.0157,33.1,0.75,0.0,Asia,Electronics,False,0.39,19
+S37,11,18.2,1.7,0.965,0.02,35.4,0.61,0.0,Asia,Electronics,False,0.39,19
+S37,12,18.9,0.9,1.0,0.0266,33.1,0.68,0.0,Asia,Electronics,False,0.39,19
+S37,13,17.6,0.0,0.922,0.0053,30.4,0.65,0.0,Asia,Electronics,False,0.39,19
+S37,14,18.7,1.1,0.947,0.0176,27.8,0.73,0.0,Asia,Electronics,False,0.39,19
+S37,15,19.0,0.8,0.933,0.0304,31.1,0.8,0.0,Asia,Electronics,False,0.39,19
+S37,16,18.6,0.3,0.92,0.0065,25.2,0.8,0.0,Asia,Electronics,False,0.39,19
+S37,17,18.0,0.6,0.955,0.016,31.7,0.77,0.0,Asia,Electronics,False,0.39,19
+S37,18,19.8,1.8,0.988,0.0276,28.8,0.7,0.0,Asia,Electronics,False,0.39,19
+S37,19,16.7,0.0,0.976,0.0132,41.8,0.62,0.0,Asia,Electronics,False,0.39,19
+S37,20,15.4,0.0,1.0,0.0141,30.5,0.83,1.0,Asia,Electronics,False,0.39,19
+S37,21,19.7,3.5,0.901,0.0218,28.7,0.72,0.0,Asia,Electronics,False,0.39,19
+S37,22,20.1,0.9,0.874,0.0312,27.9,0.68,0.0,Asia,Electronics,False,0.39,19
+S37,23,18.6,2.5,0.945,0.0211,27.8,0.78,0.0,Asia,Electronics,False,0.39,19
+S37,24,17.5,0.8,0.97,0.0212,37.0,0.64,,Asia,Electronics,False,0.39,19
+S38,1,31.5,3.1,0.919,0.0229,20.4,0.8,0.0,Asia,Raw Materials,True,0.3,31
+S38,2,30.2,1.5,0.95,0.0155,25.1,0.63,1.0,Asia,Raw Materials,True,0.3,31
+S38,3,34.1,3.6,0.87,0.0286,18.6,0.68,0.0,Asia,Raw Materials,True,0.3,31
+S38,4,31.2,4.2,0.859,0.0171,24.9,0.86,0.0,Asia,Raw Materials,True,0.3,31
+S38,5,33.1,1.7,0.876,0.0202,18.7,0.89,0.0,Asia,Raw Materials,True,0.3,31
+S38,6,30.4,1.7,0.913,0.0201,25.5,0.69,0.0,Asia,Raw Materials,True,0.3,31
+S38,7,29.3,0.0,0.861,0.0266,19.7,0.91,0.0,Asia,Raw Materials,True,0.3,31
+S38,8,32.9,2.9,0.904,0.0229,24.7,0.69,0.0,Asia,Raw Materials,True,0.3,31
+S38,9,31.5,1.8,0.879,0.0315,20.5,0.74,1.0,Asia,Raw Materials,True,0.3,31
+S38,10,31.4,2.0,0.906,0.0172,22.6,0.87,0.0,Asia,Raw Materials,True,0.3,31
+S38,11,30.8,1.3,0.89,0.0238,24.0,0.74,1.0,Asia,Raw Materials,True,0.3,31
+S38,12,29.8,2.5,0.874,0.0127,25.9,0.79,1.0,Asia,Raw Materials,True,0.3,31
+S38,13,33.5,4.7,0.811,0.0243,18.7,0.72,1.0,Asia,Raw Materials,True,0.3,31
+S38,14,31.3,0.3,0.923,0.0094,19.6,0.75,0.0,Asia,Raw Materials,True,0.3,31
+S38,15,31.9,0.0,0.868,0.0133,28.0,0.73,0.0,Asia,Raw Materials,True,0.3,31
+S38,16,31.0,0.7,0.963,0.0134,26.0,0.63,1.0,Asia,Raw Materials,True,0.3,31
+S38,17,29.7,0.3,0.97,0.0155,29.1,0.71,0.0,Asia,Raw Materials,True,0.3,31
+S38,18,26.6,0.0,1.0,0.0031,28.5,0.68,0.0,Asia,Raw Materials,True,0.3,31
+S38,19,28.4,0.9,0.925,0.005,29.6,0.75,0.0,Asia,Raw Materials,True,0.3,31
+S38,20,29.1,0.0,1.0,0.001,30.6,0.61,0.0,Asia,Raw Materials,True,0.3,31
+S38,21,28.6,0.3,0.981,0.0208,30.5,0.63,0.0,Asia,Raw Materials,True,0.3,31
+S38,22,22.6,0.0,1.0,0.0056,40.0,0.65,0.0,Asia,Raw Materials,True,0.3,31
+S38,23,24.4,0.0,1.0,0.001,34.5,0.69,0.0,Asia,Raw Materials,True,0.3,31
+S38,24,27.5,0.0,0.954,0.0038,23.2,0.76,,Asia,Raw Materials,True,0.3,31
+S39,1,12.1,0.0,0.973,0.0125,32.7,0.8,0.0,Europe,Packaging,True,0.17,12
+S39,2,13.3,2.7,0.891,0.0171,18.3,0.76,0.0,Europe,Packaging,True,0.17,12
+S39,3,13.2,3.2,0.934,0.0254,18.7,0.88,0.0,Europe,Packaging,True,0.17,12
+S39,4,12.5,3.3,0.93,0.0263,24.3,0.73,0.0,Europe,Packaging,True,0.17,12
+S39,5,11.5,0.1,0.974,0.0127,27.4,0.76,0.0,Europe,Packaging,True,0.17,12
+S39,6,10.6,0.0,0.992,0.0131,22.6,0.69,0.0,Europe,Packaging,True,0.17,12
+S39,7,10.3,0.0,0.987,0.0127,31.4,0.63,0.0,Europe,Packaging,True,0.17,12
+S39,8,10.3,0.1,1.0,0.0024,29.0,0.74,0.0,Europe,Packaging,True,0.17,12
+S39,9,10.3,0.0,1.0,0.001,39.1,0.61,0.0,Europe,Packaging,True,0.17,12
+S39,10,12.0,0.4,0.955,0.006,17.7,0.83,0.0,Europe,Packaging,True,0.17,12
+S39,11,11.2,0.8,1.0,0.008,26.2,0.82,0.0,Europe,Packaging,True,0.17,12
+S39,12,11.3,0.7,0.923,0.021,23.7,0.7,0.0,Europe,Packaging,True,0.17,12
+S39,13,11.9,3.0,0.893,0.0222,23.8,0.7,0.0,Europe,Packaging,True,0.17,12
+S39,14,12.6,0.1,0.876,0.0098,28.3,0.74,1.0,Europe,Packaging,True,0.17,12
+S39,15,13.5,4.2,0.82,0.0301,14.9,0.55,1.0,Europe,Packaging,True,0.17,12
+S39,16,13.7,2.5,0.817,0.031,20.1,0.73,0.0,Europe,Packaging,True,0.17,12
+S39,17,12.3,1.9,0.931,0.0156,11.1,0.69,0.0,Europe,Packaging,True,0.17,12
+S39,18,12.2,0.0,0.89,0.0205,20.5,0.77,0.0,Europe,Packaging,True,0.17,12
+S39,19,12.2,1.6,0.889,0.0181,23.1,0.64,1.0,Europe,Packaging,True,0.17,12
+S39,20,13.3,2.8,0.854,0.0276,14.0,0.78,0.0,Europe,Packaging,True,0.17,12
+S39,21,13.0,1.4,0.874,0.0184,16.9,0.9,0.0,Europe,Packaging,True,0.17,12
+S39,22,11.3,1.0,0.928,0.0143,22.2,0.72,0.0,Europe,Packaging,True,0.17,12
+S39,23,13.1,2.6,0.901,0.0189,16.8,0.8,0.0,Europe,Packaging,True,0.17,12
+S39,24,12.1,3.2,0.957,0.0154,27.1,0.72,,Europe,Packaging,True,0.17,12
+S40,1,21.5,3.3,0.944,0.0291,19.3,0.84,0.0,Asia,Raw Materials,False,0.13,21
+S40,2,20.2,2.4,0.946,0.0155,34.1,0.78,0.0,Asia,Raw Materials,False,0.13,21
+S40,3,22.9,1.1,0.849,0.0234,34.9,0.7,0.0,Asia,Raw Materials,False,0.13,21
+S40,4,22.6,3.0,0.875,0.0179,21.9,0.98,1.0,Asia,Raw Materials,False,0.13,21
+S40,5,20.6,3.6,0.933,0.0183,19.9,0.73,0.0,Asia,Raw Materials,False,0.13,21
+S40,6,22.1,3.6,0.904,0.026,21.7,0.87,1.0,Asia,Raw Materials,False,0.13,21
+S40,7,22.9,4.7,0.842,0.0197,25.1,0.8,0.0,Asia,Raw Materials,False,0.13,21
+S40,8,23.2,1.9,0.928,0.0314,20.6,0.8,0.0,Asia,Raw Materials,False,0.13,21
+S40,9,22.3,0.0,0.948,0.0099,24.7,0.65,0.0,Asia,Raw Materials,False,0.13,21
+S40,10,22.6,3.3,0.913,0.0264,26.3,0.82,0.0,Asia,Raw Materials,False,0.13,21
+S40,11,22.1,2.7,0.883,0.008,23.1,0.75,0.0,Asia,Raw Materials,False,0.13,21
+S40,12,22.3,1.2,0.915,0.0231,28.1,0.83,0.0,Asia,Raw Materials,False,0.13,21
+S40,13,18.8,1.8,0.999,0.0132,28.7,0.67,1.0,Asia,Raw Materials,False,0.13,21
+S40,14,21.9,3.5,0.856,0.038,23.5,0.88,0.0,Asia,Raw Materials,False,0.13,21
+S40,15,23.4,2.9,0.924,0.016,22.1,0.8,0.0,Asia,Raw Materials,False,0.13,21
+S40,16,21.6,1.5,0.958,0.0082,27.5,0.69,0.0,Asia,Raw Materials,False,0.13,21
+S40,17,21.2,1.6,0.872,0.0162,30.4,0.81,1.0,Asia,Raw Materials,False,0.13,21
+S40,18,24.0,5.0,0.864,0.0344,18.7,0.9,0.0,Asia,Raw Materials,False,0.13,21
+S40,19,22.0,4.9,0.919,0.0186,27.0,0.86,0.0,Asia,Raw Materials,False,0.13,21
+S40,20,21.2,1.7,0.912,0.0186,32.3,0.72,0.0,Asia,Raw Materials,False,0.13,21
+S40,21,21.5,2.7,0.921,0.0327,31.6,0.84,0.0,Asia,Raw Materials,False,0.13,21
+S40,22,20.9,2.1,0.961,0.0208,28.6,0.76,0.0,Asia,Raw Materials,False,0.13,21
+S40,23,20.8,1.2,0.923,0.0194,24.3,0.69,0.0,Asia,Raw Materials,False,0.13,21
+S40,24,22.3,3.4,0.943,0.0215,19.6,0.81,,Asia,Raw Materials,False,0.13,21
