@@ -1,0 +1,4 @@
+{
+  "CUST-201": {"name": "Karthik Reddy", "segment": "Gold",     "past_purchases": ["Wireless Mouse"],       "preferred_category": null,    "budget": 70000},
+  "CUST-202": {"name": "Divya Menon",   "segment": "Standard", "past_purchases": ["Wireless Headphones"],  "preferred_category": "audio", "budget": 8000}
+}

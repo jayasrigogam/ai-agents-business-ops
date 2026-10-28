@@ -1,0 +1,8 @@
+[
+  {"name": "ProBook 14",         "category": "laptop", "price": 55000, "rating": 4.4},
+  {"name": "CodeBook 15",        "category": "laptop", "price": 59000, "rating": 4.6},
+  {"name": "UltraBook X",        "category": "laptop", "price": 85000, "rating": 4.8},
+  {"name": "BassBuds",           "category": "audio",  "price": 2999,  "rating": 4.0},
+  {"name": "StudioPods Pro",     "category": "audio",  "price": 6499,  "rating": 4.5},
+  {"name": "SoundMax Over-ear",  "category": "audio",  "price": 9999,  "rating": 4.7}
+]
