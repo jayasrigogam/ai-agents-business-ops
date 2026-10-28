@@ -1,0 +1,67 @@
+ProjectID,Skill,FTE_Needed,MinProficiency
+P01,QA Testing,0.5,3
+P01,Cybersecurity,1.0,3
+P01,SQL,1.5,3
+P01,UI/UX,0.5,3
+P02,DevOps,0.5,3
+P02,Python,1.0,3
+P02,UI/UX,1.0,3
+P02,Cloud,1.5,3
+P03,Cybersecurity,1.0,3
+P03,QA Testing,1.0,3
+P03,Python,1.0,3
+P04,Cloud,1.5,3
+P04,Project Management,1.0,3
+P04,Machine Learning,0.5,3
+P04,UI/UX,0.5,3
+P05,SQL,1.5,3
+P05,DevOps,0.5,3
+P05,Machine Learning,1.0,3
+P06,Data Analysis,1.0,3
+P06,QA Testing,0.5,3
+P06,Cloud,1.0,3
+P06,Project Management,1.5,3
+P07,QA Testing,1.0,3
+P07,Machine Learning,0.5,3
+P07,Cloud,1.5,3
+P07,UI/UX,1.0,3
+P08,Data Analysis,1.0,3
+P08,DevOps,0.5,3
+P08,Cybersecurity,1.0,3
+P08,UI/UX,1.0,3
+P09,Python,1.0,3
+P09,Data Analysis,1.0,3
+P09,Machine Learning,0.5,3
+P09,SQL,0.5,3
+P10,DevOps,1.5,3
+P10,QA Testing,1.0,3
+P10,Cybersecurity,1.0,3
+P11,Python,1.5,3
+P11,Cloud,1.0,3
+P12,UI/UX,1.5,3
+P12,SQL,0.5,3
+P13,Python,1.5,3
+P13,Project Management,1.0,3
+P13,Cloud,1.0,3
+P14,QA Testing,1.5,3
+P14,Machine Learning,1.5,3
+P14,Python,1.0,3
+P14,Data Analysis,1.0,3
+P15,DevOps,1.0,3
+P15,Cloud,1.0,3
+P15,Python,0.5,3
+P16,Python,0.5,3
+P16,Cloud,1.0,3
+P16,QA Testing,0.5,3
+P17,Machine Learning,1.0,3
+P17,Cloud,1.0,3
+P18,DevOps,0.5,3
+P18,Data Analysis,0.5,3
+P18,Machine Learning,1.5,3
+P19,Project Management,1.0,3
+P19,UI/UX,0.5,3
+P19,Machine Learning,0.5,3
+P19,Data Analysis,1.5,3
+P20,Machine Learning,1.0,3
+P20,Project Management,1.0,3
+P20,DevOps,1.5,3

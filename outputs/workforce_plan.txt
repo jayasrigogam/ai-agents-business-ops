@@ -1,0 +1,12 @@
+WORKFORCE CAPACITY & SKILL GAP PLAN
+========================================
+Employees: 220 | Free capacity: 66 FTE | Peak demand: 26 FTE
+Critical skills in deficit: Machine Learning, DevOps, Cloud, UI/UX, Cybersecurity
+Projects at risk: 19 of 20
+
+ACTIONS:
+- Machine Learning: gap 2.5 FTE -> reallocate 0.3 FTE, train 6 people, hire 1
+- DevOps: gap 2.4 FTE -> reallocate 0.0 FTE, train 6 people, hire 1
+- Cloud: gap 2.1 FTE -> reallocate 0.9 FTE, train 5 people, hire 0
+- UI/UX: gap 1.0 FTE -> reallocate 0.6 FTE, train 2 people, hire 0
+- Cybersecurity: gap 0.7 FTE -> reallocate 0.6 FTE, train 1 people, hire 0

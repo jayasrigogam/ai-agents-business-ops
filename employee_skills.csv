@@ -1,0 +1,391 @@
+EmployeeID,Skill,Proficiency
+1,Python,3
+3,QA Testing,2
+4,Project Management,2
+6,Data Analysis,3
+7,Python,2
+7,Project Management,4
+7,Cloud,3
+8,SQL,3
+9,Project Management,1
+11,Python,2
+11,SQL,5
+11,Data Analysis,2
+11,Project Management,3
+11,UI/UX,3
+11,QA Testing,2
+12,Data Analysis,5
+12,QA Testing,3
+13,SQL,2
+13,Data Analysis,4
+14,Project Management,4
+15,Python,2
+15,SQL,3
+15,Cybersecurity,4
+16,Python,4
+16,Data Analysis,2
+17,Python,3
+17,Data Analysis,2
+18,DevOps,5
+19,SQL,3
+20,Python,3
+20,SQL,4
+21,SQL,3
+21,UI/UX,3
+22,UI/UX,2
+22,QA Testing,1
+24,Data Analysis,3
+25,Python,4
+25,Data Analysis,2
+25,Project Management,4
+25,QA Testing,2
+26,Python,3
+26,UI/UX,2
+27,SQL,4
+27,Data Analysis,3
+27,QA Testing,1
+27,DevOps,2
+28,Project Management,2
+29,SQL,4
+29,Data Analysis,1
+30,Data Analysis,5
+30,Project Management,1
+30,Cloud,5
+31,QA Testing,4
+32,Python,3
+33,Data Analysis,1
+34,QA Testing,1
+35,Python,3
+35,Data Analysis,2
+35,QA Testing,4
+36,Python,5
+36,SQL,3
+36,UI/UX,3
+36,Machine Learning,1
+37,SQL,2
+37,Project Management,1
+37,Cybersecurity,2
+38,Data Analysis,2
+38,Project Management,2
+38,UI/UX,1
+39,SQL,4
+39,QA Testing,2
+40,SQL,4
+40,Data Analysis,1
+40,Cybersecurity,4
+41,Python,4
+41,UI/UX,3
+41,QA Testing,4
+42,Python,5
+42,Data Analysis,1
+42,QA Testing,3
+43,Python,2
+43,Cybersecurity,3
+44,Project Management,3
+44,QA Testing,2
+44,Cloud,3
+45,SQL,5
+46,Project Management,4
+47,Python,3
+47,QA Testing,5
+48,SQL,3
+48,Project Management,1
+48,DevOps,2
+49,Project Management,3
+50,Machine Learning,2
+51,SQL,2
+51,Data Analysis,1
+52,Python,3
+53,Python,5
+53,QA Testing,3
+54,SQL,5
+54,DevOps,5
+55,SQL,3
+55,Data Analysis,2
+55,Machine Learning,2
+56,SQL,4
+57,SQL,3
+57,Cloud,3
+58,Python,4
+58,QA Testing,4
+59,Data Analysis,2
+60,Python,3
+60,Project Management,3
+62,Python,4
+62,Project Management,4
+62,UI/UX,5
+63,Python,3
+63,SQL,3
+63,QA Testing,3
+64,Data Analysis,3
+64,QA Testing,2
+65,Data Analysis,1
+65,Cloud,4
+66,Project Management,4
+66,UI/UX,2
+67,UI/UX,5
+67,QA Testing,1
+68,Python,1
+68,Data Analysis,3
+68,Cloud,2
+69,Python,5
+69,SQL,3
+70,Python,4
+70,SQL,3
+71,Project Management,1
+74,UI/UX,3
+75,Project Management,3
+75,DevOps,4
+77,Project Management,3
+78,Python,3
+78,SQL,4
+78,Data Analysis,2
+78,UI/UX,2
+79,Python,3
+79,QA Testing,2
+80,Project Management,2
+80,Cybersecurity,3
+81,SQL,3
+82,Python,4
+82,QA Testing,4
+83,Python,3
+84,Data Analysis,3
+84,Project Management,2
+84,QA Testing,4
+85,Data Analysis,2
+86,Project Management,1
+86,UI/UX,2
+87,Python,3
+87,SQL,1
+87,QA Testing,3
+87,DevOps,4
+88,Cloud,3
+89,Python,5
+90,Python,2
+90,QA Testing,2
+91,SQL,2
+92,Python,1
+92,SQL,4
+92,UI/UX,2
+93,Data Analysis,5
+94,Python,3
+94,UI/UX,1
+95,Python,4
+95,Project Management,4
+96,Data Analysis,3
+97,DevOps,4
+98,Project Management,2
+99,Data Analysis,2
+99,QA Testing,3
+100,Project Management,4
+101,Data Analysis,3
+101,QA Testing,2
+101,Cloud,3
+102,Data Analysis,2
+102,QA Testing,3
+103,Python,4
+103,Project Management,5
+104,Python,2
+104,Project Management,3
+104,QA Testing,5
+105,Data Analysis,3
+105,Machine Learning,2
+106,QA Testing,2
+106,Machine Learning,3
+107,SQL,4
+107,Data Analysis,4
+107,Project Management,4
+109,Python,2
+109,Data Analysis,2
+110,Cloud,2
+111,Project Management,4
+111,UI/UX,2
+112,Python,3
+112,SQL,5
+112,Data Analysis,2
+112,Project Management,1
+112,QA Testing,4
+114,SQL,3
+114,QA Testing,1
+115,SQL,2
+115,Project Management,5
+115,QA Testing,3
+116,Python,2
+116,SQL,5
+117,UI/UX,4
+118,Python,3
+118,SQL,1
+118,QA Testing,5
+120,Machine Learning,5
+121,SQL,4
+121,Cloud,4
+122,QA Testing,2
+123,SQL,2
+124,SQL,5
+124,Project Management,4
+126,Python,4
+126,Cloud,2
+127,SQL,2
+128,UI/UX,2
+129,Data Analysis,2
+130,SQL,2
+130,Project Management,3
+132,Python,2
+132,SQL,2
+132,Project Management,2
+133,Python,1
+133,SQL,3
+134,Python,4
+134,Project Management,5
+135,SQL,3
+135,Project Management,1
+135,Cybersecurity,5
+136,SQL,2
+136,UI/UX,4
+137,Data Analysis,4
+137,UI/UX,1
+138,SQL,3
+138,Data Analysis,2
+139,Python,2
+139,Data Analysis,1
+140,SQL,5
+141,Python,3
+141,SQL,4
+141,Project Management,4
+141,QA Testing,3
+142,Data Analysis,1
+143,QA Testing,1
+144,SQL,3
+145,Python,3
+145,SQL,3
+145,Data Analysis,4
+147,Python,2
+147,Project Management,5
+148,Python,3
+150,Python,2
+150,SQL,3
+150,Data Analysis,2
+150,Project Management,2
+150,QA Testing,3
+150,DevOps,2
+151,SQL,4
+151,Project Management,3
+152,SQL,3
+152,DevOps,2
+152,Machine Learning,4
+153,Project Management,3
+154,SQL,5
+155,SQL,2
+155,Data Analysis,4
+155,Project Management,2
+155,Cybersecurity,3
+156,Data Analysis,1
+156,Cloud,3
+157,SQL,3
+157,Data Analysis,4
+158,SQL,5
+158,Data Analysis,4
+158,Cloud,2
+159,Data Analysis,5
+160,Python,1
+160,UI/UX,4
+161,Cloud,1
+162,DevOps,2
+163,Python,4
+163,SQL,2
+163,Project Management,2
+164,SQL,4
+164,QA Testing,1
+165,SQL,2
+166,UI/UX,4
+167,Data Analysis,3
+168,Project Management,4
+169,Python,2
+169,SQL,2
+169,Project Management,4
+170,Project Management,4
+171,SQL,4
+172,SQL,4
+172,Project Management,4
+172,QA Testing,5
+172,Cybersecurity,4
+173,SQL,3
+175,Python,2
+175,SQL,3
+176,Python,1
+177,Python,4
+177,SQL,4
+177,DevOps,1
+178,Data Analysis,4
+179,SQL,1
+179,Data Analysis,4
+179,Project Management,1
+180,Data Analysis,5
+180,Project Management,3
+181,Project Management,4
+182,Python,3
+183,Data Analysis,2
+183,Machine Learning,3
+185,Data Analysis,1
+186,Python,2
+186,UI/UX,1
+186,QA Testing,3
+187,Python,2
+187,Cloud,2
+188,Data Analysis,2
+188,UI/UX,4
+189,Data Analysis,1
+189,QA Testing,3
+190,Python,1
+190,Project Management,4
+191,QA Testing,3
+192,Data Analysis,1
+193,Python,2
+193,Data Analysis,3
+195,Python,3
+195,Data Analysis,4
+196,Data Analysis,2
+196,Machine Learning,5
+197,Python,3
+197,SQL,2
+197,Data Analysis,3
+197,Project Management,4
+199,SQL,2
+200,Python,4
+200,Data Analysis,1
+200,Project Management,3
+200,QA Testing,1
+201,Project Management,2
+202,Python,2
+202,SQL,1
+203,QA Testing,3
+204,SQL,1
+205,QA Testing,3
+206,Python,3
+206,SQL,3
+206,Data Analysis,4
+206,DevOps,2
+207,Python,3
+207,Data Analysis,3
+207,UI/UX,2
+207,DevOps,2
+208,SQL,4
+208,Project Management,5
+209,Data Analysis,3
+210,QA Testing,3
+210,Cloud,1
+212,Python,1
+212,Cloud,5
+213,SQL,1
+213,Cloud,5
+214,UI/UX,5
+215,SQL,4
+215,UI/UX,4
+215,Cloud,3
+216,SQL,3
+216,Cloud,2
+217,Python,3
+217,QA Testing,3
+219,SQL,3
+219,Data Analysis,2
+220,Python,5

@@ -1,0 +1,65 @@
+====================================================================== 
+1. CAPACITY ON PAPER
+======================================================================
+Employees: 220 | Total free capacity (FTE): 66.2
+Peak monthly project demand (FTE): 25.5
+-> On paper, the company has enough people. The problem is WHICH skills.
+
+====================================================================== 
+2. SKILL SUPPLY vs DEMAND (FTE)
+======================================================================
+                    Qualified_People  ...  Months_in_Deficit
+Machine Learning                   5  ...                 10
+DevOps                             5  ...                  8
+Cloud                             12  ...                  5
+UI/UX                             14  ...                  1
+Cybersecurity                      7  ...                  4
+QA Testing                        28  ...                  0
+Data Analysis                     30  ...                  0
+Project Management                36  ...                  0
+Python                            46  ...                  0
+SQL                               53  ...                  0
+
+[10 rows x 5 columns]
+
+====================================================================== 
+3. PROJECTS AT RISK OF MISSING DEADLINES
+======================================================================
+19 of 20 projects depend on a skill that is short during their run.
+ProjectID    Project              ShortSkills  Worst_Gap
+      P19 Project 19  Machine Learning, UI/UX        2.5
+      P05  Project 5 DevOps, Machine Learning        2.5
+      P04  Project 4  Cloud, Machine Learning        2.5
+      P17 Project 17  Cloud, Machine Learning        2.5
+      P18 Project 18 DevOps, Machine Learning        2.5
+      P10 Project 10    Cybersecurity, DevOps        2.4
+      P20 Project 20 DevOps, Machine Learning        2.4
+      P13 Project 13                    Cloud        2.1
+      P11 Project 11                    Cloud        2.1
+      P02  Project 2     Cloud, DevOps, UI/UX        2.1
+
+====================================================================== 
+4. RECOMMENDATIONS: ALLOCATE / TRAIN / HIRE
+======================================================================
+           Skill  Peak_Gap_FTE  Reallocate_FTE  People_To_Train  Train_FTE  Hire_Headcount
+Machine Learning           2.5             0.3                6        1.5               1
+          DevOps           2.4             0.0                6        1.5               1
+           Cloud           2.1             0.9                5        1.2               0
+           UI/UX           1.0             0.6                2        0.4               0
+   Cybersecurity           0.7             0.6                1        0.1               0
+
+WORKFORCE CAPACITY & SKILL GAP PLAN
+========================================
+Employees: 220 | Free capacity: 66 FTE | Peak demand: 26 FTE
+Critical skills in deficit: Machine Learning, DevOps, Cloud, UI/UX, Cybersecurity
+Projects at risk: 19 of 20
+
+ACTIONS:
+- Machine Learning: gap 2.5 FTE -> reallocate 0.3 FTE, train 6 people, hire 1
+- DevOps: gap 2.4 FTE -> reallocate 0.0 FTE, train 6 people, hire 1
+- Cloud: gap 2.1 FTE -> reallocate 0.9 FTE, train 5 people, hire 0
+- UI/UX: gap 1.0 FTE -> reallocate 0.6 FTE, train 2 people, hire 0
+- Cybersecurity: gap 0.7 FTE -> reallocate 0.6 FTE, train 1 people, hire 0
+
+(Optional: set ANTHROPIC_API_KEY for an LLM-written executive summary.)
+Done. Charts saved in ./outputs/

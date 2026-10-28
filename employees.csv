@@ -1,0 +1,221 @@
+EmployeeID,Department,CommittedLoad
+1,Product,0.73
+2,QA,0.55
+3,IT Ops,0.42
+4,Engineering,0.69
+5,Engineering,0.53
+6,QA,0.39
+7,Engineering,0.82
+8,IT Ops,0.71
+9,IT Ops,0.8
+10,Data,0.52
+11,Engineering,0.59
+12,Engineering,0.52
+13,Engineering,0.54
+14,Data,0.76
+15,Product,0.56
+16,Product,0.79
+17,QA,0.79
+18,IT Ops,1.1
+19,Product,0.44
+20,QA,0.9
+21,Engineering,0.7
+22,Engineering,0.72
+23,Product,0.43
+24,Engineering,0.63
+25,Engineering,0.87
+26,Product,0.7
+27,Data,0.74
+28,QA,0.66
+29,Product,0.95
+30,Product,0.72
+31,Data,0.28
+32,Engineering,0.58
+33,Engineering,0.33
+34,Engineering,0.2
+35,IT Ops,0.61
+36,Engineering,0.99
+37,Data,0.73
+38,Engineering,0.49
+39,IT Ops,0.53
+40,Engineering,0.95
+41,Engineering,0.75
+42,QA,0.73
+43,Product,0.71
+44,IT Ops,0.73
+45,Product,0.88
+46,IT Ops,0.83
+47,Engineering,0.76
+48,Product,0.51
+49,Product,0.82
+50,QA,0.58
+51,Data,0.94
+52,Product,0.47
+53,Engineering,0.69
+54,Data,0.72
+55,Engineering,0.46
+56,Engineering,1.06
+57,IT Ops,1.01
+58,Data,0.63
+59,QA,0.87
+60,Product,0.8
+61,Product,0.2
+62,Product,0.77
+63,IT Ops,0.71
+64,Engineering,0.74
+65,Data,0.5
+66,Engineering,0.67
+67,Data,0.68
+68,Engineering,0.96
+69,QA,0.79
+70,Engineering,0.72
+71,IT Ops,1.03
+72,Engineering,0.61
+73,QA,0.64
+74,IT Ops,0.36
+75,Engineering,1.03
+76,IT Ops,0.91
+77,QA,0.9
+78,QA,0.85
+79,Product,0.74
+80,Engineering,0.76
+81,Engineering,0.67
+82,QA,0.68
+83,Product,0.73
+84,Engineering,1.02
+85,QA,0.83
+86,Product,0.71
+87,Product,0.6
+88,Data,0.59
+89,Data,1.04
+90,Engineering,0.82
+91,Engineering,0.73
+92,QA,0.65
+93,Data,0.5
+94,Product,0.71
+95,Engineering,0.89
+96,IT Ops,0.64
+97,Engineering,0.67
+98,Data,0.68
+99,Engineering,0.74
+100,Engineering,0.4
+101,QA,0.67
+102,IT Ops,0.55
+103,Data,0.9
+104,Product,0.57
+105,QA,0.84
+106,Engineering,1.02
+107,Product,0.66
+108,IT Ops,0.6
+109,Data,0.76
+110,Product,0.72
+111,IT Ops,0.52
+112,QA,0.81
+113,Engineering,1.1
+114,QA,0.67
+115,Engineering,0.68
+116,IT Ops,0.51
+117,IT Ops,0.78
+118,Engineering,0.47
+119,Data,0.5
+120,IT Ops,0.98
+121,Engineering,0.54
+122,Product,0.94
+123,IT Ops,1.02
+124,Product,0.77
+125,IT Ops,0.83
+126,Engineering,1.1
+127,Engineering,0.68
+128,Data,0.6
+129,Engineering,0.45
+130,Engineering,0.73
+131,QA,1.02
+132,Product,0.91
+133,Engineering,0.53
+134,Engineering,0.55
+135,QA,0.62
+136,Data,0.78
+137,QA,0.68
+138,Product,0.76
+139,Product,0.78
+140,QA,0.66
+141,IT Ops,0.71
+142,Product,0.76
+143,Data,0.7
+144,QA,0.82
+145,Data,1.09
+146,QA,0.84
+147,Engineering,0.73
+148,Data,0.38
+149,Product,0.8
+150,QA,0.33
+151,Engineering,0.44
+152,IT Ops,0.89
+153,IT Ops,0.86
+154,IT Ops,0.69
+155,Product,0.38
+156,QA,0.65
+157,Engineering,0.58
+158,Data,0.85
+159,Engineering,1.1
+160,Engineering,0.76
+161,Engineering,0.56
+162,QA,0.49
+163,IT Ops,0.71
+164,Engineering,0.68
+165,Product,0.49
+166,Data,0.74
+167,Product,0.49
+168,IT Ops,0.94
+169,Engineering,0.93
+170,QA,0.94
+171,Data,0.63
+172,Product,0.82
+173,Product,0.69
+174,Engineering,0.64
+175,Engineering,0.65
+176,Data,0.46
+177,IT Ops,0.43
+178,IT Ops,0.88
+179,IT Ops,0.68
+180,Engineering,0.76
+181,QA,0.92
+182,IT Ops,0.37
+183,QA,0.56
+184,Product,0.76
+185,QA,0.8
+186,Engineering,0.64
+187,Engineering,0.93
+188,Engineering,0.76
+189,Engineering,0.48
+190,Engineering,0.53
+191,Engineering,0.88
+192,Product,0.81
+193,Engineering,0.34
+194,Product,0.99
+195,Engineering,0.84
+196,IT Ops,0.99
+197,Engineering,0.64
+198,Engineering,0.66
+199,QA,0.49
+200,Product,1.1
+201,IT Ops,0.68
+202,IT Ops,1.04
+203,Product,0.59
+204,Engineering,0.75
+205,Product,0.39
+206,Engineering,0.64
+207,IT Ops,0.92
+208,QA,0.47
+209,QA,0.93
+210,Engineering,0.79
+211,Engineering,0.51
+212,Engineering,0.62
+213,Engineering,0.63
+214,Product,0.71
+215,IT Ops,0.61
+216,Engineering,0.55
+217,QA,0.66
+218,IT Ops,0.51
+219,Engineering,0.46
+220,IT Ops,0.71
